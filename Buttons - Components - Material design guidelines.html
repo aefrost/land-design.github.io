@@ -1,0 +1,1727 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)https://material.io/guidelines/components/buttons.html -->
+<html class="qp-ui" data-qp-ui="{'Futurizr': {'hasTouch': 'touch'}}" data-qp-ui-data-id="qp:0">
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+            <link href="./Buttons - Components - Material design guidelines_files/main.min.css" rel="stylesheet">
+                <link href="./Buttons - Components - Material design guidelines_files/css" rel="stylesheet">
+                    <meta content="initial-scale=1, width=device-width" name="viewport">
+                        <title>
+                            Buttons - Components - Material design guidelines
+                        </title>
+                        <meta content="Buttons - Components - Material design guidelines" itemprop="name">
+                            <meta content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png" itemprop="image">
+                                <meta content="article" property="og:type">
+                                    <meta content="Buttons - Components - Material design guidelines" property="og:title">
+                                        <meta content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png" itemprop="image">
+                                            <meta content="summary_large_image" name="twitter:card">
+                                                <meta content="Buttons - Components" property="og:title">
+                                                    <meta content="Material design guidelines" property="og:site_name">
+                                                        <meta content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png" property="og:image">
+                                                            <meta content="Buttons - Components" property="article:section">
+                                                                <meta content="#3949AB" name="theme-color">
+                                                                    <link href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-192x192.png" rel="icon" sizes="192x192">
+                                                                        <link href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png" rel="shortcut icon">
+                                                                            <link href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png" rel="apple-touch-icon">
+                                                                                <link href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+                                                                                    <link href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+                                                                                        <link href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+                                                                                            <meta content="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-144x144.png" name="msapplication-TileImage">
+                                                                                                <meta content="no" name="msapplication-tap-highlight">
+                                                                                                </meta>
+                                                                                            </meta>
+                                                                                        </link>
+                                                                                    </link>
+                                                                                </link>
+                                                                            </link>
+                                                                        </link>
+                                                                    </link>
+                                                                </meta>
+                                                            </meta>
+                                                        </meta>
+                                                    </meta>
+                                                </meta>
+                                            </meta>
+                                        </meta>
+                                    </meta>
+                                </meta>
+                            </meta>
+                        </meta>
+                    </meta>
+                </link>
+            </link>
+        </meta>
+    </head>
+    <body class="site-material_ext_publish section-material-design noninitial-chapter color-indigo qp-ui qp-ui-mask" data-qp-ui="{ 'Mask': {} }" data-qp-ui-data-id="qp:1">
+        <!-- Google Tag Manager -->
+        <noscript>
+            <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NHRPF8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <script async="" src="./Buttons - Components - Material design guidelines_files/analytics.js.下载" type="text/javascript">
+        </script>
+        <script async="" src="./Buttons - Components - Material design guidelines_files/gtm.js.下载">
+        </script>
+        <script>
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NHRPF8');
+        </script>
+        <!-- End Google Tag Manager -->
+        <header>
+            <div class="header-wrapper">
+                <div class="header-title">
+                    <span class="section-title">
+                        组件
+                    </span>
+                    <span class="chapter-title">
+                        <span class="title-separator">
+                            –
+                        </span>
+                        按钮
+                    </span>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <button aria-expanded="false" class="hamburger-button qp-ui qp-ui-side-nav-toggle" data-qp-ui="{ 'SideNavToggle': {} }" data-qp-ui-data-id="qp:2" role="tab">
+                <i class="material-icons material-spec-icon" title="Show navigation">
+                    目录
+                </i>
+            </button>
+        </nav>
+        <form action="https://material.io/guidelines/search.html" id="search-form" method="GET">
+            <div class="search-widget qp-ui qp-ui-search-input" data-qp-ui="{ 'SearchInput': {} }" data-qp-ui-data-id="qp:3">
+                <button class="search-button">
+                    <i class="material-icons">
+                        查询
+                    </i>
+                </button>
+                <button class="search-close-button">
+                    <i class="material-icons">
+                        取消
+                    </i>
+                </button>
+                <input autocomplete="off" id="search-input" name="q" type="text">
+                    <label for="search-input">
+                        查询
+                    </label>
+                </input>
+            </div>
+        </form>
+        <div class="qp-ui qp-ui-side-nav-drawer qp-ui-side-nav-drawer-nogpu" data-qp-ui="{ 'SideNavDrawer': {} }" data-qp-ui-data-id="qp:4" id="side-nav">
+            <div class="side-nav-wrapper ">
+                <div>
+                    <span id="logo">
+                        <a href="https://material.io/">
+                            <svg height="43" viewbox="0 0 240 43" width="240" xmlns="http://www.w3.org/2000/svg">
+                                <title>
+                                    Artboard
+                                </title>
+                                <g fill="none" fill-rule="evenodd">
+                                    <g transform="translate(0 4)">
+                                        <circle cx="17" cy="17" fill="#212121" r="17">
+                                        </circle>
+                                        <path d="M5.1 5.1h23.8v23.8H5.1z" fill="#BDBDBD">
+                                        </path>
+                                        <path d="M28.9 5.1L17 28.9 5.1 5.1z" fill="#FFF">
+                                        </path>
+                                    </g>
+                                    <path d="M0 4h34v34H0z">
+                                    </path>
+                                    <path d="M61.682 13.781l2.314 7.11 2.5-7.11h2.246V28h-1.758v-5.674l.147-5.937-2.627 7.656h-1.035l-2.412-7.451.146 5.732V28h-1.758V13.781h2.237zm16.806 10.537h-4.746L72.6 28h-1.807l4.59-14.219h1.513L81.408 28h-1.797l-1.123-3.682zm-4.258-1.572h3.78l-1.875-6.172-1.905 6.172zm19.063-7.422h-4.395V28h-1.757V15.324h-4.395v-1.543h10.547v1.543zm10.234 6.104H97.59v5.039h6.924V28h-8.73V13.781h8.642v1.543H97.59v4.57h5.937v1.534zm8.887.771h-2.842V28h-1.797V13.781h4.17c.664.013 1.29.108 1.875.283.586.176 1.099.44 1.538.791.44.352.785.793 1.036 1.324.25.53.376 1.154.376 1.87 0 .462-.067.885-.2 1.27a3.817 3.817 0 0 1-.552 1.044c-.235.313-.515.59-.84.83a5.486 5.486 0 0 1-1.074.616l3.017 6.074-.01.117h-1.904l-2.793-5.8v-.001zm-2.842-1.484h2.422c.404-.007.785-.07 1.143-.19.358-.121.672-.295.942-.523a2.47 2.47 0 0 0 .64-.835c.156-.329.234-.708.234-1.138 0-.455-.075-.854-.224-1.196a2.384 2.384 0 0 0-.625-.86 2.675 2.675 0 0 0-.953-.522 4.162 4.162 0 0 0-1.206-.185h-2.373v5.449zm10.137-6.934h8.594v1.573h-3.408v11.084h3.408V28h-8.594v-1.563h3.33V15.355h-3.33V13.78v.001zm18.789 10.537h-4.746L132.609 28h-1.806l4.59-14.219h1.513L141.418 28h-1.797l-1.123-3.682zm-4.258-1.572h3.78l-1.875-6.172-1.905 6.172zm11.514 3.72h6.953V28h-8.76V13.781h1.807v12.686-.001zM163.53 28V13.781h3.291c.99.013 1.874.18 2.652.503a5.57 5.57 0 0 1 1.972 1.348c.55.597.968 1.302 1.23 2.07.284.804.429 1.694.435 2.671v1.045c-.006.977-.151 1.867-.434 2.67a5.837 5.837 0 0 1-1.23 2.071 5.57 5.57 0 0 1-1.973 1.348c-.778.322-1.662.486-2.652.493h-3.291zm1.836-12.734v11.26h1.455c.768-.007 1.433-.142 1.992-.406a3.886 3.886 0 0 0 1.392-1.079c.368-.456.641-.993.82-1.611.18-.619.272-1.29.279-2.012v-1.064a7.27 7.27 0 0 0-.284-2.007 4.606 4.606 0 0 0-.82-1.602 3.817 3.817 0 0 0-1.387-1.07c-.56-.26-1.224-.396-1.992-.41h-1.455v.001zm18.174 6.162h-5.937v5.039h6.923V28h-8.73V13.781h8.642v1.543h-6.835v4.57h5.937v1.534zm11.621 2.978c0-.436-.1-.804-.298-1.103-.2-.302-.462-.56-.766-.757a4.989 4.989 0 0 0-1.03-.513c-.375-.137-.735-.26-1.08-.37a16.253 16.253 0 0 1-1.528-.587 6.663 6.663 0 0 1-1.416-.84 4.231 4.231 0 0 1-1.045-1.176c-.27-.453-.405-.985-.405-1.597s.135-1.159.405-1.64c.27-.483.623-.89 1.06-1.221a4.773 4.773 0 0 1 1.484-.757 5.582 5.582 0 0 1 1.67-.26c.618 0 1.214.103 1.787.309a4.94 4.94 0 0 1 1.523.864c.443.37.798.82 1.065 1.347a4.04 4.04 0 0 1 .42 1.768h-1.856a3.947 3.947 0 0 0-.302-1.118 2.766 2.766 0 0 0-.596-.864 2.612 2.612 0 0 0-.884-.562 3.16 3.16 0 0 0-1.157-.2c-.345 0-.682.049-1.01.146a2.718 2.718 0 0 0-.88.44c-.255.193-.465.44-.615.723a2.08 2.08 0 0 0-.23.996c.007.41.111.756.313 1.04.202.283.457.522.767.717.309.196.644.358 1.005.489.362.13.702.244 1.021.341.352.111.706.236 1.064.376.359.14.704.302 1.036.484.332.182.64.387.927.615.287.228.537.487.752.776.215.29.383.61.503.957.12.349.18.735.18 1.158 0 .638-.14 1.194-.424 1.67a3.83 3.83 0 0 1-1.099 1.186 4.95 4.95 0 0 1-1.523.713c-.566.16-1.133.24-1.7.24a5.99 5.99 0 0 1-1.855-.294 5.327 5.327 0 0 1-1.626-.844 4.425 4.425 0 0 1-1.167-1.348c-.3-.53-.459-1.134-.478-1.812h1.846c.058.443.179.835.36 1.177a2.87 2.87 0 0 0 1.695 1.406 4 4 0 0 0 1.226.181c.35 0 .7-.044 1.04-.132.326-.08.636-.22.913-.41.267-.185.485-.42.654-.703.17-.283.254-.62.254-1.01v-.001zm4.56-10.625h8.594v1.573h-3.408v11.084h3.408V28h-8.593v-1.563h3.33V15.355h-3.33V13.78l-.001.001zm21.202 12.354c-.6.703-1.286 1.224-2.06 1.562-.775.339-1.625.505-2.55.498a5.02 5.02 0 0 1-1.616-.268 4.664 4.664 0 0 1-1.323-.713 5.079 5.079 0 0 1-1.025-1.07 6.707 6.707 0 0 1-.738-1.332c-.2-.485-.35-.989-.449-1.504a8.954 8.954 0 0 1-.161-1.587v-1.65a10.29 10.29 0 0 1 .142-1.578c.085-.515.221-1.02.405-1.509.182-.481.41-.929.683-1.342.274-.414.601-.772.982-1.075.38-.302.812-.542 1.294-.717a4.704 4.704 0 0 1 1.62-.264 5.3 5.3 0 0 1 1.837.308 4.39 4.39 0 0 1 1.465.878c.416.381.752.84 1.006 1.377.253.538.41 1.138.468 1.802h-1.787a5.086 5.086 0 0 0-.332-1.138 2.87 2.87 0 0 0-.59-.893 2.617 2.617 0 0 0-.875-.581 3.076 3.076 0 0 0-1.181-.21c-.43 0-.81.073-1.143.22-.324.14-.619.34-.869.59a3.251 3.251 0 0 0-.615.865 6.141 6.141 0 0 0-.4 1.04c-.104.364-.18.737-.225 1.113a9.132 9.132 0 0 0-.069 1.094v1.67c.007.358.038.727.093 1.108.055.381.142.754.259 1.118.117.365.267.71.45 1.035.181.326.401.612.658.86.257.247.555.444.894.59.338.147.723.224 1.152.23.248.007.506-.003.777-.03.27-.025.532-.077.786-.155.254-.079.491-.184.713-.318.221-.133.407-.307.556-.522l.02-3.194h-2.89V20.92h4.609l.029 5.215zM232.633 28h-1.836l-5.518-10.625L225.25 28h-1.826V13.781h1.836l5.517 10.606.03-10.606h1.826V28z" fill="#000">
+                                    </path>
+                                </g>
+                            </svg>
+                        </a>
+                    </span>
+                    <nav>
+                        <dl>
+                            <dt aria-expanded="false" class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" data-qp-ui-data-id="qp:7" role="tab" tabindex="0">
+                                材料设计
+                            </dt>
+                            <div style="overflow: hidden;">
+                                <dd>
+                                    <a href="Introduction - Material design - Material design guidelines.html">
+                                        引言
+                                    </a>
+                                    <a href="Environment - Material design - Material design guidelines.html">
+                                        环境
+                                    </a>
+                                    <a href="Material properties - Material design - Material design guidelines.html">
+                                        材料特性
+                                    </a>
+                                    <a href="Elevation & shadows - Material design - Material design guidelines.html">
+                                        高程及阴影
+                                    </a>
+                                    <a href="What’s new - Material design - Material design guidelines.html">
+                                        更新记录
+                                    </a>
+                                    <a href="What’s new  - Chinese - Material design - Material design guidelines.html">
+                                        译者前言
+                                    </a>
+                                </dd>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt aria-expanded="false" class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" data-qp-ui-data-id="qp:8" role="tab" tabindex="0">
+                                运动
+                            </dt>
+                            <div style="overflow: hidden;">
+                                <dd>
+                                    <a href="Material motion - Motion - Material design guidelines.html">
+                                        材料运动
+                                    </a>
+                                    <a href="Duration & easing - Motion - Material design guidelines.html">
+                                        持续时间和缓和
+                                    </a>
+                                    <a href="Movement - Motion - Material design guidelines.html">
+                                        动作
+                                    </a>
+                                    <a href="Transforming material - Motion - Material design guidelines.html">
+                                        材料变换
+                                    </a>
+                                    <a href="Choreography - Motion - Material design guidelines.html">
+                                        编排
+                                    </a>
+                                    <a href="Creative customization - Motion - Material design guidelines.html">
+                                        创意定制
+                                    </a>
+                                </dd>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt aria-expanded="false" class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" data-qp-ui-data-id="qp:9" role="tab" tabindex="0">
+                                样式
+                            </dt>
+                            <div style="overflow: hidden;">
+                                <dd>
+                                    <a href="Color - Style - Material design guidelines.html">
+                                        颜色
+                                    </a>
+                                    
+                                    <a href="Imagery - Style - Material design guidelines.html">
+                                        图像
+                                    </a>
+                                    <a href="Typography - Style - Material design guidelines.html">
+                                        排印
+                                    </a>
+                                    <a href="Writing - Style - Material design guidelines.html">
+                                        撰写
+                                    </a>
+                                </dd>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt aria-expanded="false" class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" data-qp-ui-data-id="qp:a" role="tab" tabindex="0">
+                                布局
+                            </dt>
+                            <div style="overflow: hidden;">
+                                <dd>
+                                    <a href="Principles - Layout - Material design guidelines.html">
+                                        原则
+                                    </a>
+                                    <a href="Units & measurements - Layout - Material design guidelines.html">
+                                        单位及测量
+                                    </a>
+                                    <a href="Metrics & keylines - Layout - Material design guidelines.html">
+                                        指标及边界线
+                                    </a>
+                                    <a href="Structure - Layout - Material design guidelines.html">
+                                        结构
+                                    </a>
+                                    <a href="Responsive UI - Layout - Material design guidelines.html">
+                                        响应式 UI
+                                    </a>
+                                    <a href="Split screen - Layout - Material design guidelines.html">
+                                        分屏
+                                    </a>
+                                </dd>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt aria-expanded="true" class="qp-ui goog-zippy-header goog-zippy-expanded" data-qp-ui="{ 'SideNavZippy': true }" data-qp-ui-data-id="qp:b" role="tab" tabindex="0">
+                                组件
+                            </dt>
+                            <div style="overflow: hidden;">
+                                <dd>
+                                    <a href="Bottom navigation - Components - Material design guidelines.html">
+                                        底部导航栏
+                                    </a>
+                                    <a href="Bottom sheets - Components - Material design guidelines.html">
+                                        底部面板
+                                    </a>
+                                    <a class="nav_selected" href="Buttons - Components - Material design guidelines.html">
+                                        按钮
+                                    </a>
+                                    <a href="Buttons_ Floating Action Button - Components - Material design guidelines.html">
+                                        按钮: 浮动动作按钮
+                                    </a>
+                                    <a href="Cards - Components - Material design guidelines.html">
+                                        卡片
+                                    </a>
+                                    <a href="Chips - Components - Material design guidelines.html">
+                                        芯片
+                                    </a>
+                                    <a href="Data tables - Components - Material design guidelines.html">
+                                        数据表
+                                    </a>
+                                    <a href="Dialogs - Components - Material design guidelines.html">
+                                        对话框
+                                    </a>
+                                    <a href="Dividers - Components - Material design guidelines.html">
+                                        分割线
+                                    </a>
+                                    <a href="Expansion panels - Components - Material design guidelines.html">
+                                        扩展面板
+                                    </a>
+                                    <a href="Grid lists - Components - Material design guidelines.html">
+                                        网格列表
+                                    </a>
+                                    <a href="Lists - Components - Material design guidelines.html">
+                                        列表
+                                    </a>
+                                    <a href="Lists_ Controls - Components - Material design guidelines.html">
+                                        列表：控件
+                                    </a>
+                                    <a href="Menus - Components - Material design guidelines.html">
+                                        菜单
+                                    </a>
+                                    <a href="Pickers - Components - Material design guidelines.html">
+                                        选择器
+                                    </a>
+                                    <a href="Progress & activity - Components - Material design guidelines.html">
+                                        进度及动作
+                                    </a>
+                                    <a href="Selection controls - Components - Material design guidelines.html">
+                                        选择控件
+                                    </a>
+                                    <a href="Sliders - Components - Material design guidelines.html">
+                                        滑块
+                                    </a>
+                                    <a href="Snackbars & toasts - Components - Material design guidelines.html">
+                                        Snackbars & toasts
+                                    </a>
+                                    <a href="Steppers - Components - Material design guidelines.html">
+                                        步进器
+                                    </a>
+                                    <a href="Subheaders - Components - Material design guidelines.html">
+                                        副标题
+                                    </a>
+                                    <a href="Tabs - Components - Material design guidelines.html">
+                                        标签
+                                    </a>
+                                    <a href="Text fields - Components - Material design guidelines.html">
+                                        文本字段
+                                    </a>
+                                    <a href="Toolbars - Components - Material design guidelines.html">
+                                        工具栏
+                                    </a>
+                                    <a href="Tooltips - Components - Material design guidelines.html">
+                                        提示
+                                    </a>
+                                    <a href="Widgets - Components - Material design guidelines.html">
+                                        小部件
+                                    </a>
+                                </dd>
+                            </div>
+                        </dl>
+                        
+                        <dl>
+                            <dt aria-expanded="false" class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" data-qp-ui-data-id="qp:d" role="tab" tabindex="0">
+                                发展与沟通
+                            </dt>
+                            <div style="overflow: hidden;">
+                                <dd>
+                                    <a href="Introduction - Growth & communications - Material design guidelines.html">
+                                        介绍
+                                    </a>
+                                    <a href="Onboarding - Growth & communications - Material design guidelines.html">
+                                        新手上路
+                                    </a>
+                                    <a href="Feature discovery - Growth & communications - Material design guidelines.html">
+                                        功能发现
+                                    </a>
+                                    <a href="Gesture education - Growth & communications - Material design guidelines.html">
+                                        手势教学
+                                    </a>
+                                </dd>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt aria-expanded="false" class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" data-qp-ui-data-id="qp:e" role="tab" tabindex="0">
+                                可用性
+                            </dt>
+                            <div style="overflow: hidden;">
+                                <dd>
+                                    <a href="Accessibility - Usability - Material design guidelines.html">
+                                        无障碍
+                                    </a>
+                                    <a href="Bidirectionality - Usability - Material design guidelines.html">
+                                        双向性
+                                    </a>
+                                </dd>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt aria-expanded="false" class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" data-qp-ui-data-id="qp:f" role="tab" tabindex="0">
+                                平台
+                            </dt>
+                            <div style="overflow: hidden;">
+                                <dd>
+                                    <a href="Platform adaptation - Platforms - Material design guidelines.html">
+                                        平台适配
+                                    </a>
+                                    <a href="Android - Platforms - Material design guidelines.html">
+                                        安卓
+                                    </a>
+                                </dd>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt aria-expanded="false" class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" data-qp-ui-data-id="qp:g" role="tab" tabindex="0">
+                                资源
+                            </dt>
+                            <div style="overflow: hidden;">
+                                <dd>
+                                    <a href="Color palettes - Resources - Material design guidelines.html">
+                                        调色板
+                                    </a>
+                                    <a href="Devices - Resources - Material design guidelines.html">
+                                        设备
+                                    </a>
+                                    <a href="Layout templates - Resources - Material design guidelines.html">
+                                        布局模板
+                                    </a>
+                                    <a href="Roboto & Noto fonts - Resources - Material design guidelines.html">
+                                        Roboto & Noto fonts
+                                    </a>
+                                    <a href="Sticker sheets & icons - Resources - Material design guidelines.html">
+                                        贴纸及图标
+                                    </a>
+                                    <a href="Shadows - Resources - Material design guidelines.html">
+                                        阴影
+                                    </a>
+                                </dd>
+                            </div>
+                        </dl>
+                    </nav>
+                    <div class="legal">
+                        <ul>
+                            <li>
+                                <a class="qp-ui-side-nav-dismiss" href="javascript:void(0);" onclick="try{userfeedback.api.startFeedback({'productId': '1027542', 'bucket': 'material_spec', 'locale': 'en', 'allowNonLoggedInFeedback': true});return false;}catch(e){}">
+                                    Site feedback
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.google.com/policies/privacy/">
+                                    Privacy
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.google.com/policies/terms/">
+                                    Terms
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="grid-cont">
+            <section class="grid_outer chapter">
+                <h1 class="chapter-title">
+                    按钮
+                </h1>
+                <div class="chapter-content">
+                    <div class="article-content chapter-intro">
+                        <div>
+                            <p>
+                                按钮展示一个当用户触摸时就发生的动作。
+                            </p>
+                            <div class="col-list">
+                                <section class="module-module-figure col-3">
+                                    <div class="module">
+                                        <p>
+                                            材质按钮会在印刷机上触发墨水反应。 他们可能会显示文字，图像或两者。 平按钮和凸起按钮是最常用的类型。
+                                        </p>
+                                        <p>
+                                            其他按钮类型包括：
+                                        </p>
+                                        <ul class="lst-kix_cps83lvbp1jm-0 start">
+                                            <li>
+                                                <strong>
+                                                    固定底部按钮
+                                                </strong>
+                                                是可以在屏幕页脚或对话框中使用的平面按钮。
+                                            </li>
+                                            <li>
+                                                <strong>
+                                                    下拉按钮
+                                                </strong>
+                                                显示多个选择。
+                                            </li>
+                                            <li>
+                                                <strong>
+                                                    切换按钮组
+                                                </strong>
+                                                跟选项关联。 图标切换允许选择或取消选择单个选项。
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="module">
+                                        <h3>
+                                            平按钮
+                                        </h3>
+                                        <p>
+                                            平面按钮是纯文本按钮。
+                                            <br>
+                                                它们可以在对话框，工具栏或内联中使用。
+                                                <br>
+                                                    他们不抬起，但在印刷机上填满颜色。
+                                                </br>
+                                            </br>
+                                        </p>
+                                        <h3>
+                                            凸起按钮
+                                        </h3>
+                                        <p>
+                                            凸起的按钮是矩形按钮。
+                                            <br>
+                                                它们可以并排放在一条直线上。
+                                                <br>
+                                                    他们提起并在印刷机上显示墨水反应。
+                                                    <br>
+                                                        注：（水波纹效果）
+                                                    </br>
+                                                </br>
+                                            </br>
+                                        </p>
+                                        <h3>
+                                            高度
+                                        </h3>
+                                        <p>
+                                            平按钮: 0dp
+                                            <br>
+                                                凸起按钮: 2dp
+                                            </br>
+                                        </p>
+                                    </div>
+                                    <div class="figure">
+                                        <figure class="s-tag-media">
+                                            <div class="media" style="max-width: 3000px">
+                                                <div class="frame " style="padding-top: 100.0%">
+                                                    <img alt="" src="./Buttons - Components - Material design guidelines_files/components_buttons.png"/>
+                                                </div>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="article-list">
+                        <div class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1" id="buttons-button-types">
+                            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
+                                按钮类型</h2>
+                            <div class="article-content">
+                                <div>
+                                    <p>
+                                        慧购应用的三种按钮类型
+                                    </p>
+                                    <ul class="lst-kix_4tql5k8r9fvj-0 start">
+                                        <li>
+                                            分段胶囊按钮：一种胶囊型按钮，分成N段，每一段执行不同的操作。
+                                        </li>
+                                        <li>
+                                            胶囊按钮：胶囊型的按钮。执行单个的操作。
+                                        </li>
+                                        <li>
+                                            矩形按钮：矩形的按钮，没有圆角。通常与其他元素共同组成一个组件，不单独出现。
+                                        </li>
+                                    </ul>
+                                    <div class="col-list">
+                                        <section class="figure-figure-figure col-3">
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 71.1111111111%">
+                                                            <img alt="" aria-describedby="button-types-figure-caption-1" src="./Buttons - Components - Material design guidelines_files/components_buttons_usage1.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="button-types-figure-caption-1">
+                                                        <p>
+                                                            分段胶囊按钮
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 71.1111111111%">
+                                                            <img alt="" aria-describedby="button-types-figure-caption-2" src="./Buttons - Components - Material design guidelines_files/components_buttons_usage2.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="button-types-figure-caption-2">
+                                                        <p>
+                                                            胶囊按钮
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 71.1111111111%">
+                                                            <img alt="" aria-describedby="button-types-figure-caption-3" src="./Buttons - Components - Material design guidelines_files/components_buttons_usage3.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="button-types-figure-caption-3">
+                                                        <p>
+                                                            矩形按钮
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="figure-figure-figure col-3">
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="button-types-figure-caption-4" src="./Buttons - Components - Material design guidelines_files/components_buttons_usage4.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="button-types-figure-caption-4">
+                                                        <p>
+                                                            Example of a floating action button
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="button-types-figure-caption-5" src="./Buttons - Components - Material design guidelines_files/components_buttons_usage5.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="button-types-figure-caption-5">
+                                                        <p>
+                                                            Example of a raised button
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="button-types-figure-caption-6" src="./Buttons - Components - Material design guidelines_files/components_buttons_usage6.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="button-types-figure-caption-6">
+                                                        <p>
+                                                            Example of a flat button
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:4" id="buttons-flat-buttons">
+                            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:4">
+                                平按钮
+                                <svg aria-labelledby="title desc" class="icon icon-expand-collapse" role="img" version="1.1" viewbox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+                                    <title>
+                                        Expand and collapse content
+                                    </title>
+                                    <desc>
+                                        An arrow that points down when collapsed and points up when expanded.
+                                    </desc>
+                                    <polygon points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583" role="presentation">
+                                    </polygon>
+                                </svg>
+                            </h2>
+                            <div class="article-content">
+                                <div>
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <h1>
+                                                    用法
+                                                </h1>
+                                                <p>
+                                                    平面按钮印在材料上。 他们不抬起，但在按压时填满颜色。
+                                                </p>
+                                                <p>
+                                                    在以下位置使用平按钮：
+                                                </p>
+                                                <ul class="lst-kix_sx4zu9flaq2f-0 start">
+                                                    <li>
+                                                        工具栏上
+                                                    </li>
+                                                    <li>
+                                                        在对话框中，将按钮操作与对话框内容统一起来
+                                                    </li>
+                                                    <li>
+                                                        内联，用填充，所以用户可以很容易地找到它们
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="flat-buttons-figure-caption-1" src="./Buttons - Components - Material design guidelines_files/components_buttons_main9.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="flat-buttons-figure-caption-1">
+                                                        <p>
+                                                            平面按钮适用于对话框。
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="flat-buttons-figure-caption-2" src="./Buttons - Components - Material design guidelines_files/components_buttons_main10.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="flat-buttons-figure-caption-2">
+                                                        <p>
+                                                            平面按钮最大程度地减少内容的分心。
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="flat-buttons-figure-caption-3" src="./Buttons - Components - Material design guidelines_files/components_buttons_main11.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="flat-buttons-figure-caption-3">
+                                                        <p class="s-tag-caption do">
+                                                            可行
+                                                        </p>
+                                                        <p>
+                                                            正确使用平按钮。
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="flat-buttons-figure-caption-4" src="./Buttons - Components - Material design guidelines_files/components_buttons_main12.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="flat-buttons-figure-caption-4">
+                                                        <p class="s-tag-caption dont">
+                                                            不可行
+                                                        </p>
+                                                        <p>
+                                                            这些凸起的按钮显得太突出了。
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <h1>
+                                                    规格
+                                                </h1>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 360px">
+                                                        <div class="frame " style="padding-top: 116.666666667%">
+                                                            <img alt="" aria-describedby="flat-buttons-figure-caption-5" src="./Buttons - Components - Material design guidelines_files/components_buttons_main13.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="flat-buttons-figure-caption-5">
+                                                        <p>
+                                                            亮主题上的亮平按钮
+                                                        </p>
+                                                        <p>
+                                                            Minimum width: 88dp
+                                                            <br>
+                                                                Height: 36dp
+                                                                <br>
+                                                                    Corner radius: 2dp
+                                                                    <br>
+                                                                        Pressed: 40% #999999
+                                                                        <br>
+                                                                            Disabled text: 26% #000000
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 116.666666667%">
+                                                            <img alt="" aria-describedby="flat-buttons-figure-caption-6" src="./Buttons - Components - Material design guidelines_files/components_buttons_main14.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="flat-buttons-figure-caption-6">
+                                                        <p>
+                                                            暗主题上的暗平按钮
+                                                        </p>
+                                                        <p>
+                                                            Minimum width: 88dp
+                                                            <br>
+                                                                Height: 36dp
+                                                                <br>
+                                                                    Corner radius: 2dp
+                                                                    <br>
+                                                                        Pressed: 25% #CCCCCC
+                                                                        <br>
+                                                                            Disabled text: 30% #FFFFFF
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure col-2">
+                                            <div class="module">
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 1520px">
+                                                        <div class="frame " style="padding-top: 53.5526315789%">
+                                                            <img alt="" aria-describedby="flat-buttons-figure-caption-7" src="./Buttons - Components - Material design guidelines_files/components_buttons_usage_dialogs1.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="flat-buttons-figure-caption-7">
+                                                        <p>
+                                                            Dialog text padding: 24dp
+                                                            <br>
+                                                                Dialog button container height: 52dp
+                                                                <br>
+                                                                    Dialog buttons: 8dp padding from container edges, aligned to the right of container (for LTR scripts)
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                        <section class="module-figure col-2">
+                                            <div class="module">
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 1520px">
+                                                        <div class="frame " style="padding-top: 71.5789473684%">
+                                                            <img alt="" aria-describedby="flat-buttons-figure-caption-8" src="./Buttons - Components - Material design guidelines_files/components_buttons_usage_dialogs2.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="flat-buttons-figure-caption-8">
+                                                        <p>
+                                                            对话框中的平按钮
+                                                        </p>
+                                                        <p>
+                                                            <strong>
+                                                                对话框按钮
+                                                            </strong>
+                                                            <br>
+                                                                Button height: 36dp
+                                                                <br>
+                                                                    Button top margin: 24dp
+                                                                    <br>
+                                                                        Button padding: 8dp
+                                                                        <br>
+                                                                            Button alignment: Right edge for LTR scripts
+                                                                            <br>
+                                                                                Button width: Varies based on button text length
+                                                                            </br>
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure col-2">
+                                            <div class="module">
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 1520px">
+                                                        <div class="frame " style="padding-top: 54.2105263158%">
+                                                            <img alt="" aria-describedby="flat-buttons-figure-caption-9" src="./Buttons - Components - Material design guidelines_files/components_buttons_focus_flat.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="flat-buttons-figure-caption-9">
+                                                        <p>
+                                                            Flat buttons with 12% opacity on focus
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure-module col-3">
+                                            <div class="module">
+                                                <h1>
+                                                    行为
+                                                </h1>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="qp-ui frame qp-ui-video-player qp-ui-video-player-mouse" data-qp-ui="{ 'VideoPlayer': {} }" data-qp-ui-data-id="qp:f" style="padding-top: 177.777777778%">
+                                                            <video aria-describedby="flat-buttons-figure-caption-10" loop="" preload="auto" tabindex="0">
+                                                                <source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B3T7oTWa3HiFSTNhRndpWXBwRDA/components-buttons-flatbuttons.webm" type="video/webm">
+                                                                    <source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B3T7oTWa3HiFbjE5djFGMzdKcmc/components-buttons-flatbuttons.mp4" type="video/mp4">
+                                                                    </source>
+                                                                </source>
+                                                            </video>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="flat-buttons-figure-caption-10">
+                                                        <p>
+                                                            平按钮
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="module">
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:5" id="buttons-raised-buttons">
+                            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:5">
+                                凸起按钮
+                                <svg aria-labelledby="title desc" class="icon icon-expand-collapse" role="img" version="1.1" viewbox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+                                    <title>
+                                        Expand and collapse content
+                                    </title>
+                                    <desc>
+                                        An arrow that points down when collapsed and points up when expanded.
+                                    </desc>
+                                    <polygon points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583" role="presentation">
+                                    </polygon>
+                                </svg>
+                            </h2>
+                            <div class="article-content">
+                                <div>
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <h1>
+                                                    用途
+                                                </h1>
+                                                <p>
+                                                    凸起的按钮为大多数平面布局添加尺寸。 他们强调在忙碌或宽广空间的功能。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.5%">
+                                                            <img alt="" aria-describedby="raised-buttons-figure-caption-1" src="./Buttons - Components - Material design guidelines_files/components_buttons_main5.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="raised-buttons-figure-caption-1">
+                                                        <p>
+                                                            使用凸起的按钮可以更加突出显示具有不同内容的布局中的动作。
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="raised-buttons-figure-caption-2" src="./Buttons - Components - Material design guidelines_files/components_buttons_main6.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="raised-buttons-figure-caption-2">
+                                                        <p>
+                                                            提升的按钮可以帮助描述页面上的内容部分。
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="raised-buttons-figure-caption-3" src="./Buttons - Components - Material design guidelines_files/components_buttons_main7.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="raised-buttons-figure-caption-3">
+                                                        <p class="s-tag-caption do">
+                                                            可行
+                                                        </p>
+                                                        <p>
+                                                            凸起的按钮比平面按钮更突出。
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="raised-buttons-figure-caption-4" src="./Buttons - Components - Material design guidelines_files/components_buttons_main8.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="raised-buttons-figure-caption-4">
+                                                        <p class="s-tag-caption dont">
+                                                            不可行
+                                                        </p>
+                                                        <p>
+                                                            不要在用户界面中使用平面按钮，否则很难看到。
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <p>
+                                                    提升的按钮的行为就像一块搁在另一张纸上的材料 - 它们提起并在按钮上填充颜色。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 114.444444444%">
+                                                            <img alt="" aria-describedby="raised-buttons-figure-caption-5" src="./Buttons - Components - Material design guidelines_files/components_buttons_main15.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="raised-buttons-figure-caption-5">
+                                                        <p>
+                                                            亮主题上的亮突出按钮
+                                                        </p>
+                                                        <p>
+                                                            Minimum width: 88dp
+                                                            <br>
+                                                                Height: 36dp
+                                                                <br>
+                                                                    Corner radius: 2dp
+                                                                    <br>
+                                                                        Disabled text: 26% #000000
+                                                                        <br>
+                                                                            Disabled button: 12% #000000
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                        <p>
+                                                            Focused:12% #000000 shade over the color
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 114.444444444%">
+                                                            <img alt="" aria-describedby="raised-buttons-figure-caption-6" src="./Buttons - Components - Material design guidelines_files/components_buttons_main16.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="raised-buttons-figure-caption-6">
+                                                        <p>
+                                                            暗主题上的暗突出按钮
+                                                        </p>
+                                                        <p>
+                                                            Minimum width: 88dp
+                                                            <br>
+                                                                Height: 36dp
+                                                                <br>
+                                                                    Corner radius: 2dp
+                                                                    <br>
+                                                                        Normal color: 500
+                                                                        <br>
+                                                                            Pressed color: 700
+                                                                            <br>
+                                                                                Disabled text: 30% #FFFFFF
+                                                                                <br>
+                                                                                    Disabled button: 12% #FFFFFF
+                                                                                </br>
+                                                                            </br>
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                        <p>
+                                                            Focused:12% #000000 shade over the color
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure-module col-3">
+                                            <div class="module">
+                                                <h2>
+                                                    <strong>
+                                                        按钮的高度
+                                                    </strong>
+                                                </h2>
+                                                <p>
+                                                    凸起按钮默认高度是2dp。
+                                                </p>
+                                                <p>
+                                                    桌面端可在鼠标悬停时显示这个高度
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 91.1111111111%">
+                                                            <img alt="" aria-describedby="raised-buttons-figure-caption-7" src="./Buttons - Components - Material design guidelines_files/components_buttons_main17.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="raised-buttons-figure-caption-7">
+                                                        <p>
+                                                            <strong>
+                                                                Dark/Light
+                                                            </strong>
+                                                            <strong>
+                                                                theme
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Minimum width: 88dp
+                                                            <br>
+                                                                Height: 36dp
+                                                                <br>
+                                                                    Elevation: 0dp
+                                                                    <br>
+                                                                        Disabled text: 30% #FFFFFF
+                                                                        <br>
+                                                                            Disabled button: 12% #FFFFFF
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="module">
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-module-figure col-3">
+                                            <div class="module">
+                                                <h1>
+                                                    行为
+                                                </h1>
+                                            </div>
+                                            <div class="module">
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="qp-ui frame qp-ui-video-player qp-ui-video-player-mouse" data-qp-ui="{ 'VideoPlayer': {} }" data-qp-ui-data-id="qp:g" style="padding-top: 177.777777778%">
+                                                            <video aria-describedby="raised-buttons-figure-caption-8" loop="" preload="auto" tabindex="0">
+                                                                <source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B3T7oTWa3HiFRmZDbzdkSEp0ZEk/components-buttons-raisedbuttons.webm" type="video/webm">
+                                                                    <source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B3T7oTWa3HiFMFBOTERHZFR4aDg/components-buttons-raisedbuttons.mp4" type="video/mp4">
+                                                                    </source>
+                                                                </source>
+                                                            </video>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="raised-buttons-figure-caption-8">
+                                                        <p>
+                                                            凸起按钮
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:6" id="buttons-persistent-footer-buttons">
+                            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:6">
+                                固定底部按钮
+                                <svg aria-labelledby="title desc" class="icon icon-expand-collapse" role="img" version="1.1" viewbox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+                                    <title>
+                                        Expand and collapse content
+                                    </title>
+                                    <desc>
+                                        An arrow that points down when collapsed and points up when expanded.
+                                    </desc>
+                                    <polygon points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583" role="presentation">
+                                    </polygon>
+                                </svg>
+                            </h2>
+                            <div class="article-content">
+                                <div>
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <p>
+                                                    如果您的应用程序需要持久的操作并随时可供用户使用，请考虑使用浮动操作按钮或持续页脚按钮。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 38.0555555556%">
+                                                            <img alt="" aria-describedby="persistent-footer-buttons-figure-caption-1" src="./Buttons - Components - Material design guidelines_files/components_buttons_keyline2.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="persistent-footer-buttons-figure-caption-1">
+                                                        <p>
+                                                            固定底部按钮高度是 48dp 。
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="persistent-footer-buttons-figure-caption-2" src="./Buttons - Components - Material design guidelines_files/components_buttons_usage_buttons4.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="persistent-footer-buttons-figure-caption-2">
+                                                        <p>
+                                                            固定底部按钮
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure-module col-3">
+                                            <div class="module">
+                                                <p>
+                                                    不要在持久按钮区域内使用凸起的按钮。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 16.3888888889%">
+                                                            <img alt="" aria-describedby="persistent-footer-buttons-figure-caption-3" src="./Buttons - Components - Material design guidelines_files/components_buttons_keyline3.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="persistent-footer-buttons-figure-caption-3">
+                                                        <p class="s-tag-caption dont">
+                                                            不可行
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="module">
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <p>
+                                                    当添加分隔符时，持久性页脚按钮可用于可滚动对话框。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="persistent-footer-buttons-figure-caption-4" src="./Buttons - Components - Material design guidelines_files/components_buttons_usage_buttons5.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="persistent-footer-buttons-figure-caption-4">
+                                                        <p>
+                                                            对话框中的持久性页脚按钮
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="persistent-footer-buttons-figure-caption-5" src="./Buttons - Components - Material design guidelines_files/components_buttons_usage_buttons6.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="persistent-footer-buttons-figure-caption-5">
+                                                        <p>
+                                                            可滚动对话框中的持久性页脚按钮
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:7" id="buttons-dropdown-buttons">
+                            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:7">
+                                下拉按钮
+                                <svg aria-labelledby="title desc" class="icon icon-expand-collapse" role="img" version="1.1" viewbox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+                                    <title>
+                                        Expand and collapse content
+                                    </title>
+                                    <desc>
+                                        An arrow that points down when collapsed and points up when expanded.
+                                    </desc>
+                                    <polygon points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583" role="presentation">
+                                    </polygon>
+                                </svg>
+                            </h2>
+                            <div class="article-content">
+                                <div>
+                                    <div class="col-list">
+                                        <section class="module-figure col-2">
+                                            <div class="module">
+                                                <h1>
+                                                    移动下拉按钮
+                                                </h1>
+                                                <h2>
+                                                    <strong>
+                                                        下拉按钮
+                                                    </strong>
+                                                </h2>
+                                                <p>
+                                                    下拉式按钮可在多个选择之间进行选择。 该按钮显示当前状态和向下箭头。 例如，可用状态可以显示为字符串，调色板或图标的列表。
+                                                </p>
+                                                <p>
+                                                    当用户与按钮进行交互时，菜单覆盖按钮并显示可能的状态。 按状态关闭菜单并更新按钮以显示此新状态。
+                                                </p>
+                                                <p>
+                                                    在下拉菜单中滚动的行为与菜单滚动的方式相同。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 1520px">
+                                                        <div class="frame " style="padding-top: 49.4736842105%">
+                                                            <img alt="" aria-describedby="dropdown-buttons-figure-caption-1" src="./Buttons - Components - Material design guidelines_files/components_buttons_dropdown1.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="dropdown-buttons-figure-caption-1">
+                                                        <p>
+                                                            关闭下拉式按钮，打开下拉菜单和选择的下拉菜单
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure-module col-3">
+                                            <div class="module">
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="dropdown-buttons-figure-caption-2" src="./Buttons - Components - Material design guidelines_files/components_buttons_mobile2.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="dropdown-buttons-figure-caption-2">
+                                                        <p>
+                                                            具有列表菜单的通用下拉式按钮
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="module">
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure col-2">
+                                            <div class="module">
+                                                <h2>
+                                                    <strong>
+                                                        通用溢出下拉按钮
+                                                    </strong>
+                                                </h2>
+                                                <p>
+                                                    通用溢出下拉按钮默认显示一个箭头或菜单按钮。 当按下按钮时，出现菜单。 按菜单上的选项可导航到该选项的进一步设置。
+                                                </p>
+                                                <h2>
+                                                    <strong>
+                                                        分段下拉按钮
+                                                    </strong>
+                                                </h2>
+                                                <p>
+                                                    分段下拉列表有两个部分：当前状态和下拉箭头图标。 按当前状态将导致该状态的动作在屏幕内触发。 按下拉箭头将显示所有状态选项。 选择一个将会改变显示状态。
+                                                </p>
+                                                <h2>
+                                                    <strong>
+                                                        可编辑分段下拉按钮
+                                                    </strong>
+                                                </h2>
+                                                <p>
+                                                    此按钮具有分段下拉菜单，其中显示的状态为文本可编辑，例如字体大小选择器。 按当前状态会导致该状态的动作触发并使显示状态可编辑。 按箭头显示所有状态选项。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 1520px">
+                                                        <div class="frame " style="padding-top: 149.342105263%">
+                                                            <img alt="" aria-describedby="dropdown-buttons-figure-caption-3" src="./Buttons - Components - Material design guidelines_files/components_buttons_dropdown2.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="dropdown-buttons-figure-caption-3">
+                                                        <p>
+                                                            通用，分段和可编辑的溢出下拉按钮处于正常，悬停，对焦，按下和选择状态。
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure-module col-3">
+                                            <div class="module">
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="qp-ui frame qp-ui-video-player qp-ui-video-player-mouse" data-qp-ui="{ 'VideoPlayer': {} }" data-qp-ui-data-id="qp:h" style="padding-top: 111.666666667%">
+                                                            <video aria-describedby="dropdown-buttons-figure-caption-4" loop="" preload="auto" tabindex="0">
+                                                                <source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B3321sZLoP_HTS1LdnhrTl9TRzg/components-buttons-otherbuttons-060203_MobileDropdowns_xhdpi_006.webm" type="video/webm">
+                                                                    <source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B3321sZLoP_HMHZFaEJvMjQxa3M/components-buttons-otherbuttons-060203_MobileDropdowns_xhdpi_006.mp4" type="video/mp4">
+                                                                    </source>
+                                                                </source>
+                                                            </video>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="dropdown-buttons-figure-caption-4">
+                                                        <p>
+                                                            动画下拉按钮
+                                                        </p>
+                                                        <p>
+                                                            <a href="https://drive.google.com/a/google.com/file/d/0B4zh50KRqyzMVzB1bl9aZDdkZzQ/edit?usp=sharing" target="_blank">
+                                                            </a>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="module">
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure col-2">
+                                            <div class="module">
+                                                <h1>
+                                                    桌面下拉菜单
+                                                </h1>
+                                                <p>
+                                                    桌面应用栏规格
+                                                    <br>
+                                                    </br>
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 1520px">
+                                                        <div class="frame " style="padding-top: 87.1052631579%">
+                                                            <img alt="" aria-describedby="dropdown-buttons-figure-caption-5" src="./Buttons - Components - Material design guidelines_files/components_buttons_dropdown3.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="dropdown-buttons-figure-caption-5">
+                                                        <p>
+                                                            桌面下拉菜单
+                                                        </p>
+                                                        <p>
+                                                            Top and bottom padding: 16dp
+                                                            <br>
+                                                                Left padding: 24dp
+                                                                <br>
+                                                                    Right margin: 16dp
+                                                                    <br>
+                                                                        Horizontal space between font styles: 24dp
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                        <section class="module-module col-2">
+                                            <div class="module">
+                                            </div>
+                                            <div class="module">
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:8" id="buttons-toggle-buttons">
+                            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:8">
+                                切换按钮
+                                <svg aria-labelledby="title desc" class="icon icon-expand-collapse" role="img" version="1.1" viewbox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+                                    <title>
+                                        Expand and collapse content
+                                    </title>
+                                    <desc>
+                                        An arrow that points down when collapsed and points up when expanded.
+                                    </desc>
+                                    <polygon points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583" role="presentation">
+                                    </polygon>
+                                </svg>
+                            </h2>
+                            <div class="article-content">
+                                <div>
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <p>
+                                                    切换按钮可用于分组相关选项。 排列布局和间距以表示某些切换按钮是组的一部分。
+                                                </p>
+                                                <p>
+                                                    焦点和压力状态可能会加强切换是组的一部分。 例如，当一个按钮段被聚焦时，可以在该段的其余部分上同时显示焦点。
+                                                </p>
+                                                <p>
+                                                    切换按钮须知：
+                                                </p>
+                                                <ul class="lst-kix_7vmhian9fzi5-0 start">
+                                                    <li>
+                                                        在组中至少有三个切换按钮
+                                                    </li>
+                                                    <li>
+                                                        带有文本，图标或两者都有的标签按钮
+                                                    </li>
+                                                </ul>
+                                                <p>
+                                                    建议使用以下组合：
+                                                </p>
+                                                <ul class="lst-kix_7vmhian9fzi5-0">
+                                                    <li>
+                                                        多重和未选择
+                                                    </li>
+                                                    <li>
+                                                        单选和未选择
+                                                    </li>
+                                                    <li>
+                                                        单选
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 15.5555555556%">
+                                                            <img alt="" aria-describedby="toggle-buttons-figure-caption-1" src="./Buttons - Components - Material design guidelines_files/components_buttons_togglebuttons1.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="toggle-buttons-figure-caption-1">
+                                                        <p>
+                                                            单选
+                                                        </p>
+                                                        <p>
+                                                            文本对齐切换按钮显示左，右，中心，完整和对齐文本的选项，每次仅可选择一个选项。 选择一个选项可以取消选择任何其他选项。
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 15.5555555556%">
+                                                            <img alt="" aria-describedby="toggle-buttons-figure-caption-2" src="./Buttons - Components - Material design guidelines_files/components_buttons_togglebuttons3.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="toggle-buttons-figure-caption-2">
+                                                        <p>
+                                                            没有选择的选项
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 15.5555555556%">
+                                                            <img alt="" aria-describedby="toggle-buttons-figure-caption-3" src="./Buttons - Components - Material design guidelines_files/components_buttons_togglebuttons2.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="toggle-buttons-figure-caption-3">
+                                                        <p>
+                                                            多选
+                                                        </p>
+                                                        <p>
+                                                            逻辑分组的选项，如粗体，斜体和下划线，允许选择多个选项。
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 15.5555555556%">
+                                                            <img alt="" aria-describedby="toggle-buttons-figure-caption-4" src="./Buttons - Components - Material design guidelines_files/components_buttons_togglebuttons4.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="toggle-buttons-figure-caption-4">
+                                                        <p>
+                                                            有一个选项被选中
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                        <section class="module-module-module col-3">
+                                            <div class="module">
+                                            </div>
+                                            <div class="module">
+                                            </div>
+                                            <div class="module">
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure col-2">
+                                            <div class="module">
+                                                <h1>
+                                                    图标切换
+                                                </h1>
+                                                <p>
+                                                    图标适用于可以选择或取消选择的单个选项的切换按钮，例如向项目添加或删除星标。
+                                                </p>
+                                                <p>
+                                                    它们最适合应用程序栏，工具栏，操作按钮或切换。
+                                                </p>
+                                                <p>
+                                                    图标切换可能会显示超出其触摸目标范围的有界或无界水波纹效果。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 1520px">
+                                                        <div class="frame " style="padding-top: 46.3157894737%">
+                                                            <img alt="" aria-describedby="toggle-buttons-figure-caption-5" src="./Buttons - Components - Material design guidelines_files/components_buttons_other1.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="toggle-buttons-figure-caption-5">
+                                                        <p>
+                                                            图标在正常，悬停，聚焦，按下和无效状态下切换
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 1520px">
+                                                        <div class="frame " style="padding-top: 26.9736842105%">
+                                                            <img alt="" aria-describedby="toggle-buttons-figure-caption-6" src="./Buttons - Components - Material design guidelines_files/inline-components_buttons_toggleicons.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="toggle-buttons-figure-caption-6">
+                                                        <p>
+                                                            图标切换焦点指示器颜色和不透明度与图标的颜色相关。
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="footer-grid">
+                <div class="footer-L section-material-design color-indigo">
+                </div>
+                <div class="footer-grid-L section-material-design color-indigo">
+                    <a class="footer-text" href="Bottom sheets - Components - Material design guidelines.html">
+                        
+                        <span class="direction">
+                            上一篇
+                        </span>
+                        <span class="screen-reader">
+                            :
+                        </span>
+                        <div>
+                            底部面板
+                        </div>
+                    </a>
+                </div>
+                <div class="footer-R section-what-is-material color-indigo">
+                </div>
+                <div class="footer-grid-R section-what-is-material color-indigo">
+                    <a class="footer-text" href="Buttons_ Floating Action Button - Components - Material design guidelines.html">
+                        
+                        <span class="direction">
+                            下一篇
+                        </span>
+                        <span class="screen-reader">
+                            :
+                        </span>
+                        <div>
+                            按钮：浮动动作按钮
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <script src="./Buttons - Components - Material design guidelines_files/main.min.js.下载">
+        </script>
+        <script src="./Buttons - Components - Material design guidelines_files/api.js.下载">
+        </script>
+        <div class="qp-ui-mask-modal">
+        </div>
+    </body>
+</html>

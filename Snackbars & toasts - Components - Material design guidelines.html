@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)https://material.io/guidelines/components/snackbars-toasts.html# -->
+<html class="qp-ui" data-qp-ui="{&#39;Futurizr&#39;: {&#39;hasTouch&#39;: &#39;touch&#39;}}" data-qp-ui-data-id="qp:0"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<link href="./Snackbars &amp; toasts - Components - Material design guidelines_files/main.min.css" rel="stylesheet">
+<link href="./Snackbars &amp; toasts - Components - Material design guidelines_files/css" rel="stylesheet">
+<meta name="viewport" content="initial-scale=1, width=device-width"><title>Snackbars &amp; toasts - Components - Material design guidelines</title>
+<meta itemprop="name" content="Snackbars &amp; toasts - Components - Material design guidelines">
+<meta itemprop="image" content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Snackbars &amp; toasts - Components - Material design guidelines">
+<meta itemprop="image" content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:title" content="Snackbars &amp; toasts - Components">
+<meta property="og:site_name" content="Material design guidelines">
+<meta property="og:image" content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png">
+<meta property="article:section" content="Snackbars &amp; toasts - Components">
+<meta name="theme-color" content="#3949AB">
+<link rel="icon" sizes="192x192" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-192x192.png">
+<link rel="shortcut icon" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png">
+<link rel="apple-touch-icon" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-180x180.png">
+<meta name="msapplication-TileImage" content="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-144x144.png">
+<meta name="msapplication-tap-highlight" content="no">
+
+    
+    
+  </head>
+
+  <body class="site-material_ext_publish section-material-design noninitial-chapter color-indigo qp-ui qp-ui-mask" data-qp-ui="{ &#39;Mask&#39;: {} }" data-qp-ui-data-id="qp:1">
+    
+<!-- Google Tag Manager -->
+<noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-NHRPF8"
+height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+<script type="text/javascript" async="" src="./Snackbars &amp; toasts - Components - Material design guidelines_files/analytics.js.下载"></script><script async="" src="./Snackbars &amp; toasts - Components - Material design guidelines_files/gtm.js.下载"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NHRPF8');</script>
+<!-- End Google Tag Manager -->
+
+
+    
+  
+
+  <header>
+    <div class="header-wrapper">
+      <div class="header-title">
+        
+          <span class="section-title">组件</span>
+          <span class="chapter-title">
+            <span class="title-separator">–</span> Snackbars &amp; toasts
+          </span>
+        
+      </div>
+    </div>
+  </header>
+
+
+
+<nav>
+  <button class="hamburger-button qp-ui qp-ui-side-nav-toggle" data-qp-ui="{ &#39;SideNavToggle&#39;: {} }" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:2">
+    <i class="material-icons material-spec-icon" title="Show navigation">menu</i>
+  </button>
+</nav>
+
+
+  <form id="search-form" action="https://material.io/guidelines/search.html" method="GET">
+    <div class="search-widget qp-ui qp-ui-search-input" data-qp-ui="{ &#39;SearchInput&#39;: {} }" data-qp-ui-data-id="qp:3">
+      <button class="search-button"><i class="material-icons">search</i></button>
+      <button class="search-close-button"><i class="material-icons">close</i></button>
+      <input name="q" type="text" id="search-input" autocomplete="off">
+      <label for="search-input">Search</label>
+    </div>
+  </form>
+
+  
+<div id="side-nav" class="qp-ui qp-ui-side-nav-drawer qp-ui-side-nav-drawer-nogpu" data-qp-ui="{ &#39;SideNavDrawer&#39;: {} }" data-qp-ui-data-id="qp:4">
+  <div class="side-nav-wrapper ">
+    <div>
+      <span id="logo">
+
+      <a href="https://material.io/">
+
+      
+        <svg width="240" height="43" viewBox="0 0 240 43" xmlns="http://www.w3.org/2000/svg"><title>Artboard</title><g fill="none" fill-rule="evenodd"><g transform="translate(0 4)"><circle fill="#212121" cx="17" cy="17" r="17"></circle><path fill="#BDBDBD" d="M5.1 5.1h23.8v23.8H5.1z"></path><path fill="#FFF" d="M28.9 5.1L17 28.9 5.1 5.1z"></path></g><path d="M0 4h34v34H0z"></path><path d="M61.682 13.781l2.314 7.11 2.5-7.11h2.246V28h-1.758v-5.674l.147-5.937-2.627 7.656h-1.035l-2.412-7.451.146 5.732V28h-1.758V13.781h2.237zm16.806 10.537h-4.746L72.6 28h-1.807l4.59-14.219h1.513L81.408 28h-1.797l-1.123-3.682zm-4.258-1.572h3.78l-1.875-6.172-1.905 6.172zm19.063-7.422h-4.395V28h-1.757V15.324h-4.395v-1.543h10.547v1.543zm10.234 6.104H97.59v5.039h6.924V28h-8.73V13.781h8.642v1.543H97.59v4.57h5.937v1.534zm8.887.771h-2.842V28h-1.797V13.781h4.17c.664.013 1.29.108 1.875.283.586.176 1.099.44 1.538.791.44.352.785.793 1.036 1.324.25.53.376 1.154.376 1.87 0 .462-.067.885-.2 1.27a3.817 3.817 0 0 1-.552 1.044c-.235.313-.515.59-.84.83a5.486 5.486 0 0 1-1.074.616l3.017 6.074-.01.117h-1.904l-2.793-5.8v-.001zm-2.842-1.484h2.422c.404-.007.785-.07 1.143-.19.358-.121.672-.295.942-.523a2.47 2.47 0 0 0 .64-.835c.156-.329.234-.708.234-1.138 0-.455-.075-.854-.224-1.196a2.384 2.384 0 0 0-.625-.86 2.675 2.675 0 0 0-.953-.522 4.162 4.162 0 0 0-1.206-.185h-2.373v5.449zm10.137-6.934h8.594v1.573h-3.408v11.084h3.408V28h-8.594v-1.563h3.33V15.355h-3.33V13.78v.001zm18.789 10.537h-4.746L132.609 28h-1.806l4.59-14.219h1.513L141.418 28h-1.797l-1.123-3.682zm-4.258-1.572h3.78l-1.875-6.172-1.905 6.172zm11.514 3.72h6.953V28h-8.76V13.781h1.807v12.686-.001zM163.53 28V13.781h3.291c.99.013 1.874.18 2.652.503a5.57 5.57 0 0 1 1.972 1.348c.55.597.968 1.302 1.23 2.07.284.804.429 1.694.435 2.671v1.045c-.006.977-.151 1.867-.434 2.67a5.837 5.837 0 0 1-1.23 2.071 5.57 5.57 0 0 1-1.973 1.348c-.778.322-1.662.486-2.652.493h-3.291zm1.836-12.734v11.26h1.455c.768-.007 1.433-.142 1.992-.406a3.886 3.886 0 0 0 1.392-1.079c.368-.456.641-.993.82-1.611.18-.619.272-1.29.279-2.012v-1.064a7.27 7.27 0 0 0-.284-2.007 4.606 4.606 0 0 0-.82-1.602 3.817 3.817 0 0 0-1.387-1.07c-.56-.26-1.224-.396-1.992-.41h-1.455v.001zm18.174 6.162h-5.937v5.039h6.923V28h-8.73V13.781h8.642v1.543h-6.835v4.57h5.937v1.534zm11.621 2.978c0-.436-.1-.804-.298-1.103-.2-.302-.462-.56-.766-.757a4.989 4.989 0 0 0-1.03-.513c-.375-.137-.735-.26-1.08-.37a16.253 16.253 0 0 1-1.528-.587 6.663 6.663 0 0 1-1.416-.84 4.231 4.231 0 0 1-1.045-1.176c-.27-.453-.405-.985-.405-1.597s.135-1.159.405-1.64c.27-.483.623-.89 1.06-1.221a4.773 4.773 0 0 1 1.484-.757 5.582 5.582 0 0 1 1.67-.26c.618 0 1.214.103 1.787.309a4.94 4.94 0 0 1 1.523.864c.443.37.798.82 1.065 1.347a4.04 4.04 0 0 1 .42 1.768h-1.856a3.947 3.947 0 0 0-.302-1.118 2.766 2.766 0 0 0-.596-.864 2.612 2.612 0 0 0-.884-.562 3.16 3.16 0 0 0-1.157-.2c-.345 0-.682.049-1.01.146a2.718 2.718 0 0 0-.88.44c-.255.193-.465.44-.615.723a2.08 2.08 0 0 0-.23.996c.007.41.111.756.313 1.04.202.283.457.522.767.717.309.196.644.358 1.005.489.362.13.702.244 1.021.341.352.111.706.236 1.064.376.359.14.704.302 1.036.484.332.182.64.387.927.615.287.228.537.487.752.776.215.29.383.61.503.957.12.349.18.735.18 1.158 0 .638-.14 1.194-.424 1.67a3.83 3.83 0 0 1-1.099 1.186 4.95 4.95 0 0 1-1.523.713c-.566.16-1.133.24-1.7.24a5.99 5.99 0 0 1-1.855-.294 5.327 5.327 0 0 1-1.626-.844 4.425 4.425 0 0 1-1.167-1.348c-.3-.53-.459-1.134-.478-1.812h1.846c.058.443.179.835.36 1.177a2.87 2.87 0 0 0 1.695 1.406 4 4 0 0 0 1.226.181c.35 0 .7-.044 1.04-.132.326-.08.636-.22.913-.41.267-.185.485-.42.654-.703.17-.283.254-.62.254-1.01v-.001zm4.56-10.625h8.594v1.573h-3.408v11.084h3.408V28h-8.593v-1.563h3.33V15.355h-3.33V13.78l-.001.001zm21.202 12.354c-.6.703-1.286 1.224-2.06 1.562-.775.339-1.625.505-2.55.498a5.02 5.02 0 0 1-1.616-.268 4.664 4.664 0 0 1-1.323-.713 5.079 5.079 0 0 1-1.025-1.07 6.707 6.707 0 0 1-.738-1.332c-.2-.485-.35-.989-.449-1.504a8.954 8.954 0 0 1-.161-1.587v-1.65a10.29 10.29 0 0 1 .142-1.578c.085-.515.221-1.02.405-1.509.182-.481.41-.929.683-1.342.274-.414.601-.772.982-1.075.38-.302.812-.542 1.294-.717a4.704 4.704 0 0 1 1.62-.264 5.3 5.3 0 0 1 1.837.308 4.39 4.39 0 0 1 1.465.878c.416.381.752.84 1.006 1.377.253.538.41 1.138.468 1.802h-1.787a5.086 5.086 0 0 0-.332-1.138 2.87 2.87 0 0 0-.59-.893 2.617 2.617 0 0 0-.875-.581 3.076 3.076 0 0 0-1.181-.21c-.43 0-.81.073-1.143.22-.324.14-.619.34-.869.59a3.251 3.251 0 0 0-.615.865 6.141 6.141 0 0 0-.4 1.04c-.104.364-.18.737-.225 1.113a9.132 9.132 0 0 0-.069 1.094v1.67c.007.358.038.727.093 1.108.055.381.142.754.259 1.118.117.365.267.71.45 1.035.181.326.401.612.658.86.257.247.555.444.894.59.338.147.723.224 1.152.23.248.007.506-.003.777-.03.27-.025.532-.077.786-.155.254-.079.491-.184.713-.318.221-.133.407-.307.556-.522l.02-3.194h-2.89V20.92h4.609l.029 5.215zM232.633 28h-1.836l-5.518-10.625L225.25 28h-1.826V13.781h1.836l5.517 10.606.03-10.606h1.826V28z" fill="#000"></path></g></svg>
+      
+
+      </a>
+
+      </span>
+      
+            <nav>
+              
+
+                
+                  
+                
+
+                <dl>
+                  <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ &#39;SideNavZippy&#39;: false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:7">材料设计</dt>
+                  <div style="overflow: hidden;"><dd>
+                    
+                      <a href="Introduction - Material design - Material design guidelines.html">
+                        引言 
+                        
+                        </a>
+                    
+                      <a href="Environment - Material design - Material design guidelines.html">
+                        环境
+                        
+                        </a>
+                    
+                      <a href="Material properties - Material design - Material design guidelines.html">
+                        材料特性
+                        
+                        </a>
+                    
+                      <a href="Elevation & shadows - Material design - Material design guidelines.html">
+                        高程及阴影
+                        
+                        </a>
+                    
+                      <a href="What’s new - Material design - Material design guidelines.html">
+                        更新记录
+                        
+                        </a>
+
+                    <a href="What’s new  - Chinese - Material design - Material design guidelines.html">
+                        译者前言
+                        
+                        </a>
+                    
+                  </dd></div>
+                </dl>
+
+              
+
+                
+                  
+                
+
+                <dl>
+                  <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ &#39;SideNavZippy&#39;: false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:8">运动</dt>
+                  <div style="overflow: hidden;"><dd>
+                    
+                      <a href="Material motion - Motion - Material design guidelines.html">
+                        材料运动
+                        
+                        </a>
+                    
+                      <a href="Duration & easing - Motion - Material design guidelines.html">
+                        持续时间和缓和
+                        
+                        </a>
+                    
+                      <a href="Movement - Motion - Material design guidelines.html">
+                         动作
+                        
+                        </a>
+                    
+                      <a href="Transforming material - Motion - Material design guidelines.html">
+                        材料变换
+                        
+                        </a>
+                    
+                      <a href="Choreography - Motion - Material design guidelines.html">
+                        编排
+                        
+                        </a>
+                    
+                      <a href="Creative customization - Motion - Material design guidelines.html">
+                        创意定制
+                        
+                        </a>
+                    
+                  </dd></div>
+                </dl>
+
+              
+
+                
+                  
+                
+
+                <dl>
+                  <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ &#39;SideNavZippy&#39;: false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:9">样式</dt>
+                  <div style="overflow: hidden;"><dd>
+                    
+                      <a href="Color - Style - Material design guidelines.html">
+                        颜色
+                        
+                        </a>
+                    
+                      <!-- <a href="https://material.io/guidelines/style/icons.html">
+                        图标
+                        
+                        </a> -->
+                    
+                      <a href="Imagery - Style - Material design guidelines.html">
+                        图像
+                        
+                        </a>
+                    
+                      <a href="Typography - Style - Material design guidelines.html">
+                        排印
+                        
+                        </a>
+                    
+                      <a href="Writing - Style - Material design guidelines.html">
+                        撰写
+                        
+                        </a>
+                    
+                  </dd></div>
+                </dl>
+
+              
+
+                
+                  
+                
+
+                <dl>
+                  <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ &#39;SideNavZippy&#39;: false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:a">布局</dt>
+                  <div style="overflow: hidden;"><dd>
+                    
+                      <a href="Principles - Layout - Material design guidelines.html">
+                        原则
+                        
+                        </a>
+                    
+                      <a href="Units & measurements - Layout - Material design guidelines.html">
+                        单位及测量
+                        
+                        </a>
+                    
+                      <a href="Metrics & keylines - Layout - Material design guidelines.html">
+                        指标及边界线
+                        
+                        </a>
+                    
+                      <a href="Structure - Layout - Material design guidelines.html">
+                        结构
+                        
+                        </a>
+                    
+                      <a href="Responsive UI - Layout - Material design guidelines.html">
+                        响应式 UI
+                        
+                        </a>
+                    
+                      <a href="Split screen - Layout - Material design guidelines.html">
+                        分屏
+                        
+                        </a>
+                    
+                  </dd></div>
+                </dl>
+
+              
+
+                
+                  
+                
+
+                <dl>
+                  <dt class="qp-ui goog-zippy-header goog-zippy-expanded" data-qp-ui="{ &#39;SideNavZippy&#39;: true }" tabindex="0" role="tab" aria-expanded="true" data-qp-ui-data-id="qp:b">组件</dt>
+                  <div style="overflow: hidden;"><dd>
+                    
+                      <a href="Bottom navigation - Components - Material design guidelines.html">
+                        底部导航栏
+                        
+                        </a>
+                    
+                      <a href="Bottom sheets - Components - Material design guidelines.html">
+                        底部面板
+                        
+                        </a>
+                    
+                      <a href="Buttons - Components - Material design guidelines.html">
+                        按钮
+                        
+                        </a>
+                    
+                      <a href="Buttons_ Floating Action Button - Components - Material design guidelines.html">
+                        按钮: 浮动动作按钮
+                        
+                        </a>
+                    
+                      <a href="Cards - Components - Material design guidelines.html">
+                        卡片
+                        
+                        </a>
+                    
+                      <a href="Chips - Components - Material design guidelines.html">
+                        芯片
+                        
+                        </a>
+                    
+                      <a href="Data tables - Components - Material design guidelines.html">
+                        数据表
+                        
+                        </a>
+                    
+                      <a href="Dialogs - Components - Material design guidelines.html">
+                        对话框
+                        
+                        </a>
+                    
+                      <a href="Dividers - Components - Material design guidelines.html">
+                        分割线
+                        
+                        </a>
+                    
+                      <a href="Expansion panels - Components - Material design guidelines.html">
+                        扩展面板
+                        
+                        </a>
+                    
+                      <a href="Grid lists - Components - Material design guidelines.html">
+                        网格列表
+                        
+                        </a>
+                    
+                      <a href="Lists - Components - Material design guidelines.html">
+                        列表
+                        
+                        </a>
+                    
+                      <a href="Lists_ Controls - Components - Material design guidelines.html">
+                        列表：控件
+                        
+                        </a>
+                    
+                      <a href="Menus - Components - Material design guidelines.html">
+                        菜单
+                        
+                        </a>
+                    
+                      <a href="Pickers - Components - Material design guidelines.html">
+                        选择器
+                        
+                        </a>
+                    
+                      <a href="Progress & activity - Components - Material design guidelines.html">
+                        进度及动作
+                        
+                        </a>
+                    
+                      <a href="Selection controls - Components - Material design guidelines.html">
+                        选择控件
+                        
+                        </a>
+                    
+                      <a href="Sliders - Components - Material design guidelines.html">
+                        滑块
+                        
+                        </a>
+                    
+                      <a class="nav_selected" href="Snackbars & toasts - Components - Material design guidelines.html">
+                        Snackbars &amp; toasts
+                        
+                        </a>
+                    
+                      <a href="Steppers - Components - Material design guidelines.html">
+                        步进器
+                        
+                        </a>
+                    
+                      <a href="Subheaders - Components - Material design guidelines.html">
+                        副标题
+                        
+                        </a>
+                    
+                      <a href="Tabs - Components - Material design guidelines.html">
+                        标签
+                        
+                        </a>
+                    
+                      <a href="Text fields - Components - Material design guidelines.html">
+                        文本字段
+                        
+                        </a>
+                    
+                      <a href="Toolbars - Components - Material design guidelines.html">
+                        工具栏
+                        
+                        </a>
+                    
+                      <a href="Tooltips - Components - Material design guidelines.html">
+                        提示
+                        
+                        </a>
+                    
+                      <a href="Widgets - Components - Material design guidelines.html">
+                        小部件
+                        
+                        </a>
+                    
+                  </dd></div>
+                </dl>
+
+              
+
+                
+                  
+                
+
+      <!--           <dl>
+                  <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ &#39;SideNavZippy&#39;: false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:c">Patterns</dt>
+                  <div style="overflow: hidden;"><dd>
+                    
+                      <a href="https://material.io/guidelines/patterns/confirmation-acknowledgement.html">
+                        Confirmation &amp; acknowledgement
+                        
+                        </a>
+                    
+                      <a href="https://material.io/guidelines/patterns/data-formats.html">
+                        Data formats
+                        
+                        </a>
+                    
+                      <a href="https://material.io/guidelines/patterns/empty-states.html">
+                        Empty states
+                        
+                        </a>
+                    
+                      <a href="https://material.io/guidelines/patterns/errors.html">
+                        Errors
+                        
+                        </a>
+                    
+                      <a href="https://material.io/guidelines/patterns/fingerprint.html">
+                        Fingerprint
+                        
+                        </a>
+                    
+                      <a href="https://material.io/guidelines/patterns/gestures.html">
+                        Gestures 
+                        
+                        </a>
+                    
+                      <a href="https://material.io/guidelines/patterns/help-feedback.html">
+                        Help &amp; feedback
+                        
+                        </a>
+                    
+                      <a href="https://material.io/guidelines/patterns/launch-screens.html">
+                        Launch screens
+                        
+                        </a>
+                    
+                      <a href="https://material.io/guidelines/patterns/loading-images.html">
+                        Loading images
+                        
+                        </a>
+                    
+                      <a href="https://material.io/guidelines/patterns/navigation.html">
+                        Navigation
+                        
+                        </a>
+                    
+                      <a href="https://material.io/guidelines/patterns/navigation-drawer.html">
+                        Navigation drawer
+                        
+                        </a>
+                    
+                      <a href="https://material.io/guidelines/patterns/navigational-transitions.html">
+                        Navigational transitions
+                        
+                        </a>
+                    
+                      <a href="https://material.io/guidelines/patterns/notifications.html">
+                        Notifications
+                        
+                        </a>
+                    
+                      <a href="https://material.io/guidelines/patterns/permissions.html">
+                        Permissions
+                        
+                        </a>
+                    
+                      <a href="https://material.io/guidelines/patterns/scrolling-techniques.html">
+                        Scrolling techniques
+                        
+                        </a>
+                    
+                      <a href="https://material.io/guidelines/patterns/search.html">
+                        Search 
+                        
+                        </a>
+                    
+                      <a href="https://material.io/guidelines/patterns/selection.html">
+                        Selection 
+                        
+                        </a>
+                    
+                      <a href="https://material.io/guidelines/patterns/settings.html">
+                        Settings 
+                        
+                        </a>
+                    
+                      <a href="https://material.io/guidelines/patterns/swipe-to-refresh.html">
+                        Swipe to refresh
+                        
+                        </a>
+                    
+                  </dd></div>
+                </dl> -->
+
+              
+
+                
+                  
+                
+
+                <dl>
+                  <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ &#39;SideNavZippy&#39;: false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:d">发展与沟通</dt>
+                  <div style="overflow: hidden;"><dd>
+                    
+                      <a href="Introduction - Growth & communications - Material design guidelines.html">
+                        介绍
+                        
+                        </a>
+                    
+                      <a href="Onboarding - Growth & communications - Material design guidelines.html">
+                        新手上路
+                        
+                        </a>
+                    
+                      <a href="Feature discovery - Growth & communications - Material design guidelines.html">
+                        功能发现
+                        
+                        </a>
+                    
+                      <a href="Gesture education - Growth & communications - Material design guidelines.html">
+                        手势教学
+                        
+                        </a>
+                    
+                  </dd></div>
+                </dl>
+
+              
+
+                
+                  
+                
+
+                <dl>
+                  <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ &#39;SideNavZippy&#39;: false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:e">可用性</dt>
+                  <div style="overflow: hidden;"><dd>
+                    
+                      <a href="Accessibility - Usability - Material design guidelines.html">
+                        无障碍
+                        
+                        </a>
+                    
+                      <a href="Bidirectionality - Usability - Material design guidelines.html">
+                        双向性
+                        
+                        </a>
+                    
+                  </dd></div>
+                </dl>
+
+              
+
+                
+                  
+                
+
+                <dl>
+                  <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ &#39;SideNavZippy&#39;: false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:f">平台</dt>
+                  <div style="overflow: hidden;"><dd>
+                    
+                      <a href="Platform adaptation - Platforms - Material design guidelines.html">
+                        平台适配
+                        
+                        </a>
+                    
+                      <a href="Android - Platforms - Material design guidelines.html">
+                        安卓
+                        
+                        </a>
+                    
+                  </dd></div>
+                </dl>
+
+              
+
+                
+                  
+                
+
+                <dl>
+                  <dt class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ &#39;SideNavZippy&#39;: false }" tabindex="0" role="tab" aria-expanded="false" data-qp-ui-data-id="qp:g">资源</dt>
+                  <div style="overflow: hidden;"><dd>
+                    
+                      <a href="Color palettes - Resources - Material design guidelines.html">
+                        调色板
+                        
+                        </a>
+                    
+                      <a href="Devices - Resources - Material design guidelines.html">
+                        设备
+                        
+                        </a>
+                    
+                      <a href="Layout templates - Resources - Material design guidelines.html">
+                        布局模板
+                        
+                        </a>
+                    
+                      <a href="Roboto & Noto fonts - Resources - Material design guidelines.html">
+                        Roboto &amp; Noto fonts
+                        
+                        </a>
+                    
+                      <a href="Sticker sheets & icons - Resources - Material design guidelines.html">
+                        贴纸及图标
+                        
+                        </a>
+                    
+                      <a href="Shadows - Resources - Material design guidelines.html">
+                        阴影
+                        
+                        </a>
+                    
+                  </dd></div>
+                </dl>
+
+              
+            </nav>
+
+
+      
+      <div class="legal">
+        <ul>
+          
+          <li>
+            <a href="javascript:void(0);" onclick="try{userfeedback.api.startFeedback({&#39;productId&#39;: &#39;1027542&#39;, &#39;bucket&#39;: &#39;material_spec&#39;, &#39;locale&#39;: &#39;en&#39;, &#39;allowNonLoggedInFeedback&#39;: true});return false;}catch(e){}" class="qp-ui-side-nav-dismiss">Site feedback</a>
+          </li>
+          
+          <li>
+            <a href="http://www.google.com/policies/privacy/">Privacy</a>
+          </li>
+          <li>
+            <a href="http://www.google.com/policies/terms/">Terms</a>
+          </li>
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+
+  
+
+</div>
+
+    
+
+
+
+    
+
+  <div id="grid-cont">
+    <section class="grid_outer chapter">
+
+      
+        
+
+        
+        <h1 class="chapter-title">Snackbars &amp; toasts
+
+          
+            
+          
+
+          
+  
+  
+
+        </h1>
+        <div class="chapter-content">
+
+          <div class="article-content chapter-intro">
+            <div><p>Snackbars 通过屏幕底部的消息提供有关操作的简短反馈。</p><div class="col-list"><section class="module-module-figure col-3"><div class="module"><p><strong>Snackbars </strong>包含与执行操作直接相关的单行文本。 它们可能包含文本操作，但不包含图标。 </p><p><strong>Toasts </strong>（仅限Android）主要用于系统消息传递。 它们也显示在屏幕的底部，但可能不会在屏幕外滑动。 </p></div><div class="module"><h3><strong>用法</strong></h3><p一次只能显示一个snackbar。 每个snackbar可能包含一个单独的动作，其中任何一个可能是“关闭”或“取消”。</p><h3><strong>行为</strong></h3><p>Snackbars从屏幕的底部边缘向上动画。</p><h3><strong>Snackbar 规格</strong></h3><ul class="lst-kix_eaje492nnrn7-0 start"><li>Action button: Roboto Medium 14sp, all-caps text</li><li>Mobile height: 48dp (single-line), 80dp (multi-line)</li><li>Desktop snackbar height: 48dp</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 3000px"><div class="frame " style="padding-top: 100.0%"><img alt="" src="./Snackbars &amp; toasts - Components - Material design guidelines_files/components_snackbars.png"></div></div></figure></div></section></div></div>
+          </div>
+
+          
+          <nav class="chapter-toc">
+            <h1>目录</h1>
+            <ul>
+              
+                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ &#39;SmoothScroll&#39;: {} }" href="https://material.io/guidelines/components/snackbars-toasts.html#snackbars-toasts-usage" data-qp-ui-data-id="qp:1">用法</a></li>
+              
+                <li><a class="gweb-smoothscroll-control qp-ui" data-qp-ui="{ &#39;SmoothScroll&#39;: {} }" href="https://material.io/guidelines/components/snackbars-toasts.html#snackbars-toasts-specs" data-qp-ui-data-id="qp:2">规格</a></li>
+              
+            </ul>
+          </nav>
+
+          <div class="article-list">
+            
+              <div id="snackbars-toasts-usage" class="article qp-ui" data-qp-ui="{ &#39;ScrollSpy&#39;: {} }" data-qp-ui-data-id="qp:1">
+                <h2 class="article-title qp-ui" data-qp-ui="{ &#39;ResponsiveZippy&#39;: {} }" data-qp-ui-data-id="qp:1">
+                  用法
+
+                  
+                    
+                  
+
+                  
+  
+  
+
+                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+                    <title>Expand and collapse content</title>
+                    <desc>An arrow that points down when collapsed and points up when expanded.</desc>
+                    <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
+                  </svg>
+                </h2>
+                <div class="article-content">
+                  <div><p>一次只能在屏幕上显示一个Snackbars。 </p><h1>放置</h1><p>Snackbars 在屏幕上显示在大多数元素上方，并且它们的高度与浮动动作按钮的高度相同。 但是，它们的高度低于对话框，底部和导航抽屉。</p><h1>行为</h1><p>入场时，Snackbars从屏幕的底部边缘向上动画。 当它们出现时，它们不会阻止输入。 </p><p>他们通过在屏幕外闪烁或在其他地方超时或用户互动（例如召唤新的表面或活动）后自动消失。 </p><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><h1>非常短的文本字符串</h1><p>Snackbars 应包含与执行操作直接相关的单行文本。 它们可能包含文本操作。 他们不能包含图标。</p></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 35.5555555556%"><img alt="" aria-describedby="usage-figure-caption-1" src="./Snackbars &amp; toasts - Components - Material design guidelines_files/components_toasts_usage1.png"></div></div><figcaption id="usage-figure-caption-1"><p class="s-tag-caption do">可行</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 35.5555555556%"><img alt="" aria-describedby="usage-figure-caption-2" src="./Snackbars &amp; toasts - Components - Material design guidelines_files/components_toasts_usage2.png"></div></div><figcaption id="usage-figure-caption-2"><p class="s-tag-caption dont">不可行</p></figcaption></figure></div></section><section class="module-figure-figure col-3"><div class="module"><h1>短暂的</h1><p>Snackbars 自动从屏幕上超时。 由于可用性的原因，小吃店不应该包含访问核心用例的唯一方法。 它们不应该是持久的或被堆叠的，因为它们在屏幕上的其他元素之上。 </p><p>在Android上，当Snackbars启动时出现不相关的对话框或弹出窗口时，重新获得窗口焦点时，小吃店超时将重置。 这是为了确保用户能够阅读整个预定持续时间的Snackbars。 </p></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 53.3333333333%"><img alt="" aria-describedby="usage-figure-caption-3" src="./Snackbars &amp; toasts - Components - Material design guidelines_files/components_toasts_usage3.png"></div></div><figcaption id="usage-figure-caption-3"><p class="s-tag-caption do">可行</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 53.3333333333%"><img alt="" aria-describedby="usage-figure-caption-4" src="./Snackbars &amp; toasts - Components - Material design guidelines_files/components_toasts_usage4.png"></div></div><figcaption id="usage-figure-caption-4"><p class="s-tag-caption dont">不可行</p></figcaption></figure></div></section><section class="module-figure-figure col-3"><div class="module"><h1>0-1动作，不解除或取消</h1><p>如果存在动作，请遵守对话间隔和可执行规则。 对于两个或多个操作，即使在其中一个操作是关闭操作时，也可以使用对话框，而不是 Snackbars。 如果Snackbars中描述的动作足够重要，以阻止使用屏幕，则应该是对话框。 </p></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 35.5555555556%"><img alt="" aria-describedby="usage-figure-caption-5" src="./Snackbars &amp; toasts - Components - Material design guidelines_files/components_toasts_usage5.png"></div></div><figcaption id="usage-figure-caption-5"><p class="s-tag-caption do">可行</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 35.5555555556%"><img alt="" aria-describedby="usage-figure-caption-6" src="./Snackbars &amp; toasts - Components - Material design guidelines_files/components_toasts_usage6.png"></div></div><figcaption id="usage-figure-caption-6"><p class="s-tag-caption dont">不可行</p></figcaption></figure></div></section><section class="module-figure-figure col-3"><div class="module"><h1>不要阻止浮动动作按钮</h1><p>垂直移动浮动动作按钮以适应 Snackbars 的高度。 </p></div><div class="figure"><figure class="s-tag-media">
+<div class="media" style="max-width: 720px">
+<div class="qp-ui frame qp-ui-video-player qp-ui-video-player-mouse" data-qp-ui="{ &#39;VideoPlayer&#39;: {} }" style="padding-top: 177.777777778%" data-qp-ui-data-id="qp:f">
+<video aria-describedby="usage-figure-caption-7" loop="" preload="auto" tabindex="0">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B6Okdz75tqQsZV9TS3lTVHFzRUE/components_snackbar_usage_fabdo_005.webm" type="video/webm">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B6Okdz75tqQsNkd0RU1LNktBdUk/components_snackbar_usage_fabdo_005.mp4" type="video/mp4">
+</video>
+</div>
+</div>
+<figcaption id="usage-figure-caption-7"><p class="s-tag-caption do">可行</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media">
+<div class="media" style="max-width: 720px">
+<div class="qp-ui frame qp-ui-video-player qp-ui-video-player-mouse" data-qp-ui="{ &#39;VideoPlayer&#39;: {} }" style="padding-top: 177.777777778%" data-qp-ui-data-id="qp:g">
+<video aria-describedby="usage-figure-caption-8" loop="" preload="auto" tabindex="0">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B6Okdz75tqQsYkUtOWM5bmpYT2c/components_snackbar_usage_fabdont_005.webm" type="video/webm">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B6Okdz75tqQsU1ZuekRkQS1lQk0/components_snackbar_usage_fabdont_005.mp4" type="video/mp4">
+</video>
+</div>
+</div>
+<figcaption id="usage-figure-caption-8"><p class="s-tag-caption dont">不可行</p></figcaption></figure></div></section><section class="module-module-module col-3"><div class="module">
+</div><div class="module">
+</div><div class="module">
+</div></section><section class="module-figure-figure col-3"><div class="module"><h1>连续的小吃店</h1><p>只有一个 Snackbars 显示。 当显示第一个 Snackbars 时，第一个 Snackbars 被触发，第一个 Snackbars 会在第二个 Snackbars 向上移动之前向下开始收缩运动。 </p></div><div class="figure"><figure class="s-tag-media">
+<div class="media" style="max-width: 720px">
+<div class="qp-ui frame qp-ui-video-player qp-ui-video-player-mouse" data-qp-ui="{ &#39;VideoPlayer&#39;: {} }" style="padding-top: 173.611111111%" data-qp-ui-data-id="qp:h">
+<video aria-describedby="usage-figure-caption-9" loop="" preload="auto" tabindex="0">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B6Okdz75tqQsX3VhUHNoaWVEbDQ/components_snackbars_usage_consecutivesbdifferenttype_005.webm" type="video/webm">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B6Okdz75tqQsbjV1R1B1cm1vZE0/components_snackbars_usage_consecutivesbdifferenttype_005.mp4" type="video/mp4">
+</video>
+</div>
+</div>
+<figcaption id="usage-figure-caption-9"><p>连续两个不同内容的 Snackbars 。</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media">
+<div class="media" style="max-width: 720px">
+<div class="qp-ui frame qp-ui-video-player qp-ui-video-player-mouse" data-qp-ui="{ &#39;VideoPlayer&#39;: {} }" style="padding-top: 177.777777778%" data-qp-ui-data-id="qp:i">
+<video aria-describedby="usage-figure-caption-10" loop="" preload="auto" tabindex="0">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B6Okdz75tqQsZFhnTUU1ZWlYVTQ/components_snackbars_usage_consecutivesbsametype_005.webm" type="video/webm">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B6Okdz75tqQsSTRZeXJrbHRsbDQ/components_snackbars_usage_consecutivesbsametype_005.mp4" type="video/mp4">
+</video>
+</div>
+</div>
+<figcaption id="usage-figure-caption-10"><p>连续两个相同内容的 Snackbars 。</p></figcaption></figure></div></section></div></div>
+                </div>
+              </div>
+            
+              <div id="snackbars-toasts-specs" class="article qp-ui" data-qp-ui="{ &#39;ScrollSpy&#39;: {} }" data-qp-ui-data-id="qp:2">
+                <h2 class="article-title qp-ui" data-qp-ui="{ &#39;ResponsiveZippy&#39;: {} }" data-qp-ui-data-id="qp:2">
+                  规格
+
+                  
+                    
+                  
+
+                  
+  
+  
+
+                  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon icon-expand-collapse" role="img" viewBox="0 0 10 10" aria-labelledby="title desc">
+                    <title>Expand and collapse content</title>
+                    <desc>An arrow that points down when collapsed and points up when expanded.</desc>
+                    <polygon role="presentation" points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583"></polygon>
+                  </svg>
+                </h2>
+                <div class="article-content">
+                  <div><div class="col-list"><section class="module-figure-figure col-3"><div class="module"><h1>移动端</h1><ul class="lst-kix_t4bqbxm63pob-0 start"><li>单行 snackbar height: 48dp </li><li>多行 snackbar height: 80dp</li><li>文本: Roboto Regular 14sp</li><li>动作按钮: Roboto Medium 14sp, all-caps text</li><li>默认背景填充色: #323232 100% </li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 177.777777778%"><img alt="" aria-describedby="specs-figure-caption-1" src="./Snackbars &amp; toasts - Components - Material design guidelines_files/components_toasts_mobile1.png"></div></div><figcaption id="specs-figure-caption-1"><p>一个移动端 snackbar</p></figcaption></figure></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 720px"><div class="frame " style="padding-top: 177.777777778%"><img alt="" aria-describedby="specs-figure-caption-2" src="./Snackbars &amp; toasts - Components - Material design guidelines_files/components_toasts_mobile2.png"></div></div><figcaption id="specs-figure-caption-2"><p>一个移动端 snackbar</p></figcaption></figure></div></section><section class="module-figure-module col-3"><div class="module">
+</div><div class="figure"><figure class="s-tag-media">
+<div class="media" style="max-width: 720px">
+<div class="qp-ui frame qp-ui-video-player qp-ui-video-player-mouse" data-qp-ui="{ &#39;VideoPlayer&#39;: {} }" style="padding-top: 177.777777778%" data-qp-ui-data-id="qp:j">
+<video aria-describedby="specs-figure-caption-3" loop="" preload="auto" tabindex="0">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B6Okdz75tqQsSVRPNWlSTm81T2M/components_snackbar_usage_fabdo_005.webm" type="video/webm">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B6Okdz75tqQsN0I3MTZEQUgwZ1k/components_snackbar_usage_fabdo_005.mp4" type="video/mp4">
+</video>
+</div>
+</div>
+<figcaption id="specs-figure-caption-3"><p>移动端 Snackbars 的动画</p></figcaption></figure></div><div class="module">
+</div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module">
+</div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 1280px"><div class="frame " style="padding-top: 56.25%"><img alt="" aria-describedby="specs-figure-caption-4" src="./Snackbars &amp; toasts - Components - Material design guidelines_files/components_toasts_mobile3.png"></div></div><figcaption id="specs-figure-caption-4"><p>移动端 landscape下的 snackbar</p></figcaption></figure></div></section><section class="module-figure col-2"><div class="module">
+</div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 1520px"><div class="frame " style="padding-top: 88.1578947368%"><img alt="" aria-describedby="specs-figure-caption-5" src="./Snackbars &amp; toasts - Components - Material design guidelines_files/components_toasts_mobile4.png"></div></div><figcaption id="specs-figure-caption-5"><p>移动端 snackbar 规格</p></figcaption></figure></div></section></div><div class="col-list"><section class="module-figure col-2"><div class="module"><h1>平板/桌面</h1><ul class="lst-kix_psrtmy7li6md-0 start"><li>Single-line snackbar height: 48dp tall</li><li>Minimum width: 288dp</li><li>Maximum width:  568dp</li><li>2dp rounded corner</li><li>Text: Roboto Regular 14sp</li><li>Action button: Roboto Medium 14sp, all-caps text</li><li>Default background fill: #323232 100%  </li><li>Alignment: Centered or left-aligned 24dp from the left and bottom edges of the screen</li></ul></div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 1520px"><div class="frame " style="padding-top: 28.9473684211%"><img alt="" aria-describedby="specs-figure-caption-6" src="./Snackbars &amp; toasts - Components - Material design guidelines_files/components_toasts_tabletdesktop1.png"></div></div><figcaption id="specs-figure-caption-6"><p>一个中心对齐的平板电脑/桌面 Snackbars</p></figcaption></figure></div></section><section class="module-figure col-2"><div class="module">
+</div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 1520px"><div class="frame " style="padding-top: 28.9473684211%"><img alt="" aria-describedby="specs-figure-caption-7" src="./Snackbars &amp; toasts - Components - Material design guidelines_files/components_toasts_tabletdesktop2.png"></div></div><figcaption id="specs-figure-caption-7"><p>一个中心对齐的平板电脑/桌面 Snackbars</p></figcaption></figure></div></section><section class="module-figure col-2"><div class="module">
+</div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 2111px"><div class="frame " style="padding-top: 28.943628612%"><img alt="" aria-describedby="specs-figure-caption-8" src="./Snackbars &amp; toasts - Components - Material design guidelines_files/components_toasts_tabletdesktop1-left.png"></div></div><figcaption id="specs-figure-caption-8"><p>左对齐的平板电脑/桌面 snackbar</p></figcaption></figure></div></section><section class="module-figure col-2"><div class="module">
+</div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 2111px"><div class="frame " style="padding-top: 28.943628612%"><img alt="" aria-describedby="specs-figure-caption-9" src="./Snackbars &amp; toasts - Components - Material design guidelines_files/components_toasts_tabletdesktop2-left.png"></div></div><figcaption id="specs-figure-caption-9"><p>左对齐的平板电脑/桌面 snackbar</p></figcaption></figure></div></section><section class="module-figure col-2"><div class="module">
+</div><div class="figure"><figure class="s-tag-media"><div class="media" style="max-width: 1520px"><div class="frame " style="padding-top: 67.3684210526%"><img alt="" aria-describedby="specs-figure-caption-10" src="./Snackbars &amp; toasts - Components - Material design guidelines_files/components_toasts_tabletdesktop3.png"></div></div><figcaption id="specs-figure-caption-10"><p>平板/桌面 snackbar 规格</p><p>Snackbar height: 48dp<br>
+Snackbar left and right padding: 24dp<br>
+Snackbar top and bottom padding: 14dp<br>
+Snackbar button left padding: 48dp</p></figcaption></figure></div></section><section class="module-figure col-2"><div class="module">
+</div><div class="figure"> <figure class="s-tag-media">
+<div class="media" style="max-width: 1520px">
+<div class="qp-ui frame qp-ui-video-player qp-ui-video-player-mouse" data-qp-ui="{ &#39;VideoPlayer&#39;: {} }" style="padding-top: 73.5526315789%" data-qp-ui-data-id="qp:k">
+<video aria-describedby="specs-figure-caption-11" loop="" preload="auto" tabindex="0">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B6Okdz75tqQsLVVnZlF4UEtKRU0/components_snackbar_specs_fabtablet_002.webm" type="video/webm">
+<source src="https://storage.googleapis.com/material-design/publish/material_v_11/assets/0B6Okdz75tqQsaXptMi1nX1gwOXM/components_snackbar_specs_fabtablet_002.mp4" type="video/mp4">
+</video>
+</div>
+</div>
+<figcaption id="specs-figure-caption-11"><p>平板电脑/桌面的 snackbar 动画 </p></figcaption></figure></div></section></div></div>
+                </div>
+              </div>
+            
+          <div>
+          
+
+        </div>
+        
+      
+      
+    </div></div></section>
+  </div>
+
+
+    
+
+  
+    <footer>
+      <div class="footer-grid">
+        
+        <div class="footer-L section-material-design color-indigo">&nbsp;</div>
+        <div class="footer-grid-L section-material-design color-indigo">
+          
+          <a class="footer-text" href="Sliders - Components - Material design guidelines.html">
+            <i class="material-icons arrow-L" aria-hidden="true">arrow_back</i>
+            <span class="direction">上一篇</span><span class="screen-reader">:</span>
+            <div>
+              滑块
+            </div>
+          </a>
+          
+        </div>
+
+        
+        <div class="footer-R section-what-is-material color-indigo">&nbsp;</div>
+        <div class="footer-grid-R section-what-is-material color-indigo">
+          
+          <a class="footer-text" href="Steppers - Components - Material design guidelines.html">
+            <i class="material-icons arrow-R" aria-hidden="true">arrow_forward</i>
+            <span class="direction">下一篇</span><span class="screen-reader">:</span>
+            <div>
+              步进器
+            </div>
+          </a>
+          
+        </div>
+
+      </div>
+    </footer>
+  
+
+
+    
+  
+  
+  
+  <script src="./Snackbars &amp; toasts - Components - Material design guidelines_files/main.min.js.下载"></script><script src="./Snackbars &amp; toasts - Components - Material design guidelines_files/api.js.下载"></script>
+
+  
+<div class="qp-ui-mask-modal"></div></body></html>

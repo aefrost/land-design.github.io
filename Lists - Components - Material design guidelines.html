@@ -1,0 +1,2466 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)https://material.io/guidelines/components/lists.html#lists-specs -->
+<html class="qp-ui" data-qp-ui="{'Futurizr': {'hasTouch': 'touch'}}" data-qp-ui-data-id="qp:0">
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+            <link href="./Lists - Components - Material design guidelines_files/main.min.css" rel="stylesheet">
+                <link href="./Lists - Components - Material design guidelines_files/css" rel="stylesheet">
+                    <meta content="initial-scale=1, width=device-width" name="viewport">
+                        <title>
+                            Lists - Components - Material design guidelines
+                        </title>
+                        <meta content="Lists - Components - Material design guidelines" itemprop="name">
+                            <meta content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png" itemprop="image">
+                                <meta content="article" property="og:type">
+                                    <meta content="Lists - Components - Material design guidelines" property="og:title">
+                                        <meta content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png" itemprop="image">
+                                            <meta content="summary_large_image" name="twitter:card">
+                                                <meta content="Lists - Components" property="og:title">
+                                                    <meta content="Material design guidelines" property="og:site_name">
+                                                        <meta content="https://storage.googleapis.com/material-design/publish/material_v_10/share.png" property="og:image">
+                                                            <meta content="Lists - Components" property="article:section">
+                                                                <meta content="#3949AB" name="theme-color">
+                                                                    <link href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-192x192.png" rel="icon" sizes="192x192">
+                                                                        <link href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png" rel="shortcut icon">
+                                                                            <link href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png" rel="apple-touch-icon">
+                                                                                <link href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+                                                                                    <link href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+                                                                                        <link href="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+                                                                                            <meta content="https://storage.googleapis.com/material-design/publish/material_v_10/guidelines-icon-144x144.png" name="msapplication-TileImage">
+                                                                                                <meta content="no" name="msapplication-tap-highlight">
+                                                                                                </meta>
+                                                                                            </meta>
+                                                                                        </link>
+                                                                                    </link>
+                                                                                </link>
+                                                                            </link>
+                                                                        </link>
+                                                                    </link>
+                                                                </meta>
+                                                            </meta>
+                                                        </meta>
+                                                    </meta>
+                                                </meta>
+                                            </meta>
+                                        </meta>
+                                    </meta>
+                                </meta>
+                            </meta>
+                        </meta>
+                    </meta>
+                </link>
+            </link>
+        </meta>
+    </head>
+    <body class="site-material_ext_publish section-material-design noninitial-chapter color-indigo qp-ui qp-ui-mask" data-qp-ui="{ 'Mask': {} }" data-qp-ui-data-id="qp:1">
+        <!-- Google Tag Manager -->
+        <noscript>
+            <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NHRPF8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <script async="" src="./Lists - Components - Material design guidelines_files/analytics.js.下载" type="text/javascript">
+        </script>
+        <script async="" src="./Lists - Components - Material design guidelines_files/gtm.js.下载">
+        </script>
+        <script>
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NHRPF8');
+        </script>
+        <!-- End Google Tag Manager -->
+        <header>
+            <div class="header-wrapper">
+                <div class="header-title">
+                    <span class="section-title">
+                        组件
+                    </span>
+                    <span class="chapter-title">
+                        <span class="title-separator">
+                            –
+                        </span>
+                        列表
+                    </span>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <button aria-expanded="false" class="hamburger-button qp-ui qp-ui-side-nav-toggle" data-qp-ui="{ 'SideNavToggle': {} }" data-qp-ui-data-id="qp:2" role="tab">
+                <i class="material-icons material-spec-icon" title="Show navigation">
+                    目录
+                </i>
+            </button>
+        </nav>
+        <form action="https://material.io/guidelines/search.html" id="search-form" method="GET">
+            <div class="search-widget qp-ui qp-ui-search-input" data-qp-ui="{ 'SearchInput': {} }" data-qp-ui-data-id="qp:3">
+                <button class="search-button">
+                    <i class="material-icons">
+                        查询
+                    </i>
+                </button>
+                <button class="search-close-button">
+                    <i class="material-icons">
+                        取消
+                    </i>
+                </button>
+                <input autocomplete="off" id="search-input" name="q" type="text">
+                    <label for="search-input">
+                        查询
+                    </label>
+                </input>
+            </div>
+        </form>
+        <div class="qp-ui qp-ui-side-nav-drawer qp-ui-side-nav-drawer-nogpu" data-qp-ui="{ 'SideNavDrawer': {} }" data-qp-ui-data-id="qp:4" id="side-nav">
+            <div class="side-nav-wrapper ">
+                <div>
+                    <span id="logo">
+                        <a href="https://material.io/">
+                            <svg height="43" viewbox="0 0 240 43" width="240" xmlns="http://www.w3.org/2000/svg">
+                                <title>
+                                    Artboard
+                                </title>
+                                <g fill="none" fill-rule="evenodd">
+                                    <g transform="translate(0 4)">
+                                        <circle cx="17" cy="17" fill="#212121" r="17">
+                                        </circle>
+                                        <path d="M5.1 5.1h23.8v23.8H5.1z" fill="#BDBDBD">
+                                        </path>
+                                        <path d="M28.9 5.1L17 28.9 5.1 5.1z" fill="#FFF">
+                                        </path>
+                                    </g>
+                                    <path d="M0 4h34v34H0z">
+                                    </path>
+                                    <path d="M61.682 13.781l2.314 7.11 2.5-7.11h2.246V28h-1.758v-5.674l.147-5.937-2.627 7.656h-1.035l-2.412-7.451.146 5.732V28h-1.758V13.781h2.237zm16.806 10.537h-4.746L72.6 28h-1.807l4.59-14.219h1.513L81.408 28h-1.797l-1.123-3.682zm-4.258-1.572h3.78l-1.875-6.172-1.905 6.172zm19.063-7.422h-4.395V28h-1.757V15.324h-4.395v-1.543h10.547v1.543zm10.234 6.104H97.59v5.039h6.924V28h-8.73V13.781h8.642v1.543H97.59v4.57h5.937v1.534zm8.887.771h-2.842V28h-1.797V13.781h4.17c.664.013 1.29.108 1.875.283.586.176 1.099.44 1.538.791.44.352.785.793 1.036 1.324.25.53.376 1.154.376 1.87 0 .462-.067.885-.2 1.27a3.817 3.817 0 0 1-.552 1.044c-.235.313-.515.59-.84.83a5.486 5.486 0 0 1-1.074.616l3.017 6.074-.01.117h-1.904l-2.793-5.8v-.001zm-2.842-1.484h2.422c.404-.007.785-.07 1.143-.19.358-.121.672-.295.942-.523a2.47 2.47 0 0 0 .64-.835c.156-.329.234-.708.234-1.138 0-.455-.075-.854-.224-1.196a2.384 2.384 0 0 0-.625-.86 2.675 2.675 0 0 0-.953-.522 4.162 4.162 0 0 0-1.206-.185h-2.373v5.449zm10.137-6.934h8.594v1.573h-3.408v11.084h3.408V28h-8.594v-1.563h3.33V15.355h-3.33V13.78v.001zm18.789 10.537h-4.746L132.609 28h-1.806l4.59-14.219h1.513L141.418 28h-1.797l-1.123-3.682zm-4.258-1.572h3.78l-1.875-6.172-1.905 6.172zm11.514 3.72h6.953V28h-8.76V13.781h1.807v12.686-.001zM163.53 28V13.781h3.291c.99.013 1.874.18 2.652.503a5.57 5.57 0 0 1 1.972 1.348c.55.597.968 1.302 1.23 2.07.284.804.429 1.694.435 2.671v1.045c-.006.977-.151 1.867-.434 2.67a5.837 5.837 0 0 1-1.23 2.071 5.57 5.57 0 0 1-1.973 1.348c-.778.322-1.662.486-2.652.493h-3.291zm1.836-12.734v11.26h1.455c.768-.007 1.433-.142 1.992-.406a3.886 3.886 0 0 0 1.392-1.079c.368-.456.641-.993.82-1.611.18-.619.272-1.29.279-2.012v-1.064a7.27 7.27 0 0 0-.284-2.007 4.606 4.606 0 0 0-.82-1.602 3.817 3.817 0 0 0-1.387-1.07c-.56-.26-1.224-.396-1.992-.41h-1.455v.001zm18.174 6.162h-5.937v5.039h6.923V28h-8.73V13.781h8.642v1.543h-6.835v4.57h5.937v1.534zm11.621 2.978c0-.436-.1-.804-.298-1.103-.2-.302-.462-.56-.766-.757a4.989 4.989 0 0 0-1.03-.513c-.375-.137-.735-.26-1.08-.37a16.253 16.253 0 0 1-1.528-.587 6.663 6.663 0 0 1-1.416-.84 4.231 4.231 0 0 1-1.045-1.176c-.27-.453-.405-.985-.405-1.597s.135-1.159.405-1.64c.27-.483.623-.89 1.06-1.221a4.773 4.773 0 0 1 1.484-.757 5.582 5.582 0 0 1 1.67-.26c.618 0 1.214.103 1.787.309a4.94 4.94 0 0 1 1.523.864c.443.37.798.82 1.065 1.347a4.04 4.04 0 0 1 .42 1.768h-1.856a3.947 3.947 0 0 0-.302-1.118 2.766 2.766 0 0 0-.596-.864 2.612 2.612 0 0 0-.884-.562 3.16 3.16 0 0 0-1.157-.2c-.345 0-.682.049-1.01.146a2.718 2.718 0 0 0-.88.44c-.255.193-.465.44-.615.723a2.08 2.08 0 0 0-.23.996c.007.41.111.756.313 1.04.202.283.457.522.767.717.309.196.644.358 1.005.489.362.13.702.244 1.021.341.352.111.706.236 1.064.376.359.14.704.302 1.036.484.332.182.64.387.927.615.287.228.537.487.752.776.215.29.383.61.503.957.12.349.18.735.18 1.158 0 .638-.14 1.194-.424 1.67a3.83 3.83 0 0 1-1.099 1.186 4.95 4.95 0 0 1-1.523.713c-.566.16-1.133.24-1.7.24a5.99 5.99 0 0 1-1.855-.294 5.327 5.327 0 0 1-1.626-.844 4.425 4.425 0 0 1-1.167-1.348c-.3-.53-.459-1.134-.478-1.812h1.846c.058.443.179.835.36 1.177a2.87 2.87 0 0 0 1.695 1.406 4 4 0 0 0 1.226.181c.35 0 .7-.044 1.04-.132.326-.08.636-.22.913-.41.267-.185.485-.42.654-.703.17-.283.254-.62.254-1.01v-.001zm4.56-10.625h8.594v1.573h-3.408v11.084h3.408V28h-8.593v-1.563h3.33V15.355h-3.33V13.78l-.001.001zm21.202 12.354c-.6.703-1.286 1.224-2.06 1.562-.775.339-1.625.505-2.55.498a5.02 5.02 0 0 1-1.616-.268 4.664 4.664 0 0 1-1.323-.713 5.079 5.079 0 0 1-1.025-1.07 6.707 6.707 0 0 1-.738-1.332c-.2-.485-.35-.989-.449-1.504a8.954 8.954 0 0 1-.161-1.587v-1.65a10.29 10.29 0 0 1 .142-1.578c.085-.515.221-1.02.405-1.509.182-.481.41-.929.683-1.342.274-.414.601-.772.982-1.075.38-.302.812-.542 1.294-.717a4.704 4.704 0 0 1 1.62-.264 5.3 5.3 0 0 1 1.837.308 4.39 4.39 0 0 1 1.465.878c.416.381.752.84 1.006 1.377.253.538.41 1.138.468 1.802h-1.787a5.086 5.086 0 0 0-.332-1.138 2.87 2.87 0 0 0-.59-.893 2.617 2.617 0 0 0-.875-.581 3.076 3.076 0 0 0-1.181-.21c-.43 0-.81.073-1.143.22-.324.14-.619.34-.869.59a3.251 3.251 0 0 0-.615.865 6.141 6.141 0 0 0-.4 1.04c-.104.364-.18.737-.225 1.113a9.132 9.132 0 0 0-.069 1.094v1.67c.007.358.038.727.093 1.108.055.381.142.754.259 1.118.117.365.267.71.45 1.035.181.326.401.612.658.86.257.247.555.444.894.59.338.147.723.224 1.152.23.248.007.506-.003.777-.03.27-.025.532-.077.786-.155.254-.079.491-.184.713-.318.221-.133.407-.307.556-.522l.02-3.194h-2.89V20.92h4.609l.029 5.215zM232.633 28h-1.836l-5.518-10.625L225.25 28h-1.826V13.781h1.836l5.517 10.606.03-10.606h1.826V28z" fill="#000">
+                                    </path>
+                                </g>
+                            </svg>
+                        </a>
+                    </span>
+                    <nav>
+                        <dl>
+                            <dt aria-expanded="false" class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" data-qp-ui-data-id="qp:7" role="tab" tabindex="0">
+                                材料设计
+                            </dt>
+                            <div style="overflow: hidden;">
+                                <dd>
+                                    <a href="Introduction - Material design - Material design guidelines.html">
+                                        引言
+                                    </a>
+                                    <a href="Environment - Material design - Material design guidelines.html">
+                                        环境
+                                    </a>
+                                    <a href="Material properties - Material design - Material design guidelines.html">
+                                        材料特性
+                                    </a>
+                                    <a href="Elevation & shadows - Material design - Material design guidelines.html">
+                                        高程及阴影
+                                    </a>
+                                    <a href="What’s new - Material design - Material design guidelines.html">
+                                        更新记录
+                                    </a>
+                                    <a href="What’s new  - Chinese - Material design - Material design guidelines.html">
+                                        译者前言
+                                    </a>
+                                </dd>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt aria-expanded="false" class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" data-qp-ui-data-id="qp:8" role="tab" tabindex="0">
+                                运动
+                            </dt>
+                            <div style="overflow: hidden;">
+                                <dd>
+                                    <a href="Material motion - Motion - Material design guidelines.html">
+                                        材料运动
+                                    </a>
+                                    <a href="Duration & easing - Motion - Material design guidelines.html">
+                                        持续时间和缓和
+                                    </a>
+                                    <a href="Movement - Motion - Material design guidelines.html">
+                                        动作
+                                    </a>
+                                    <a href="Transforming material - Motion - Material design guidelines.html">
+                                        材料变换
+                                    </a>
+                                    <a href="Choreography - Motion - Material design guidelines.html">
+                                        编排
+                                    </a>
+                                    <a href="Creative customization - Motion - Material design guidelines.html">
+                                        创意定制
+                                    </a>
+                                </dd>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt aria-expanded="false" class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" data-qp-ui-data-id="qp:9" role="tab" tabindex="0">
+                                样式
+                            </dt>
+                            <div style="overflow: hidden;">
+                                <dd>
+                                    <a href="Color - Style - Material design guidelines.html">
+                                        颜色
+                                    </a>
+                                    
+                                    <a href="Imagery - Style - Material design guidelines.html">
+                                        图像
+                                    </a>
+                                    <a href="Typography - Style - Material design guidelines.html">
+                                        排印
+                                    </a>
+                                    <a href="Writing - Style - Material design guidelines.html">
+                                        撰写
+                                    </a>
+                                </dd>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt aria-expanded="false" class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" data-qp-ui-data-id="qp:a" role="tab" tabindex="0">
+                                布局
+                            </dt>
+                            <div style="overflow: hidden;">
+                                <dd>
+                                    <a href="Principles - Layout - Material design guidelines.html">
+                                        原则
+                                    </a>
+                                    <a href="Units & measurements - Layout - Material design guidelines.html">
+                                        单位及测量
+                                    </a>
+                                    <a href="Metrics & keylines - Layout - Material design guidelines.html">
+                                        指标及边界线
+                                    </a>
+                                    <a href="Structure - Layout - Material design guidelines.html">
+                                        结构
+                                    </a>
+                                    <a href="Responsive UI - Layout - Material design guidelines.html">
+                                        响应式 UI
+                                    </a>
+                                    <a href="Split screen - Layout - Material design guidelines.html">
+                                        分屏
+                                    </a>
+                                </dd>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt aria-expanded="true" class="qp-ui goog-zippy-header goog-zippy-expanded" data-qp-ui="{ 'SideNavZippy': true }" data-qp-ui-data-id="qp:b" role="tab" tabindex="0">
+                                组件
+                            </dt>
+                            <div style="overflow: hidden;">
+                                <dd>
+                                    <a href="Bottom navigation - Components - Material design guidelines.html">
+                                        底部导航栏
+                                    </a>
+                                    <a href="Bottom sheets - Components - Material design guidelines.html">
+                                        底部面板
+                                    </a>
+                                    <a href="Buttons - Components - Material design guidelines.html">
+                                        按钮
+                                    </a>
+                                    <a href="Buttons_ Floating Action Button - Components - Material design guidelines.html">
+                                        按钮: 浮动动作按钮
+                                    </a>
+                                    <a href="Cards - Components - Material design guidelines.html">
+                                        卡片
+                                    </a>
+                                    <a href="Chips - Components - Material design guidelines.html">
+                                        芯片
+                                    </a>
+                                    <a href="Data tables - Components - Material design guidelines.html">
+                                        数据表
+                                    </a>
+                                    <a href="Dialogs - Components - Material design guidelines.html">
+                                        对话框
+                                    </a>
+                                    <a href="Dividers - Components - Material design guidelines.html">
+                                        分割线
+                                    </a>
+                                    <a href="Expansion panels - Components - Material design guidelines.html">
+                                        扩展面板
+                                    </a>
+                                    <a href="Grid lists - Components - Material design guidelines.html">
+                                        网格列表
+                                    </a>
+                                    <a class="nav_selected" href="Lists - Components - Material design guidelines.html">
+                                        列表
+                                    </a>
+                                    <a href="Lists_ Controls - Components - Material design guidelines.html">
+                                        列表：控件
+                                    </a>
+                                    <a href="Menus - Components - Material design guidelines.html">
+                                        菜单
+                                    </a>
+                                    <a href="Pickers - Components - Material design guidelines.html">
+                                        选择器
+                                    </a>
+                                    <a href="Progress & activity - Components - Material design guidelines.html">
+                                        进度及动作
+                                    </a>
+                                    <a href="Selection controls - Components - Material design guidelines.html">
+                                        选择控件
+                                    </a>
+                                    <a href="Sliders - Components - Material design guidelines.html">
+                                        滑块
+                                    </a>
+                                    <a href="Snackbars & toasts - Components - Material design guidelines.html">
+                                        Snackbars & toasts
+                                    </a>
+                                    <a href="Steppers - Components - Material design guidelines.html">
+                                        步进器
+                                    </a>
+                                    <a href="Subheaders - Components - Material design guidelines.html">
+                                        副标题
+                                    </a>
+                                    <a href="Tabs - Components - Material design guidelines.html">
+                                        标签
+                                    </a>
+                                    <a href="Text fields - Components - Material design guidelines.html">
+                                        文本字段
+                                    </a>
+                                    <a href="Toolbars - Components - Material design guidelines.html">
+                                        工具栏
+                                    </a>
+                                    <a href="Tooltips - Components - Material design guidelines.html">
+                                        提示
+                                    </a>
+                                    <a href="Widgets - Components - Material design guidelines.html">
+                                        小部件
+                                    </a>
+                                </dd>
+                            </div>
+                        </dl>
+                        
+                        <dl>
+                            <dt aria-expanded="false" class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" data-qp-ui-data-id="qp:d" role="tab" tabindex="0">
+                                发展与沟通
+                            </dt>
+                            <div style="overflow: hidden;">
+                                <dd>
+                                    <a href="Introduction - Growth & communications - Material design guidelines.html">
+                                        介绍
+                                    </a>
+                                    <a href="Onboarding - Growth & communications - Material design guidelines.html">
+                                        新手上路
+                                    </a>
+                                    <a href="Feature discovery - Growth & communications - Material design guidelines.html">
+                                        功能发现
+                                    </a>
+                                    <a href="Gesture education - Growth & communications - Material design guidelines.html">
+                                        手势教学
+                                    </a>
+                                </dd>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt aria-expanded="false" class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" data-qp-ui-data-id="qp:e" role="tab" tabindex="0">
+                                可用性
+                            </dt>
+                            <div style="overflow: hidden;">
+                                <dd>
+                                    <a href="Accessibility - Usability - Material design guidelines.html">
+                                        无障碍
+                                    </a>
+                                    <a href="Bidirectionality - Usability - Material design guidelines.html">
+                                        双向性
+                                    </a>
+                                </dd>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt aria-expanded="false" class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" data-qp-ui-data-id="qp:f" role="tab" tabindex="0">
+                                平台
+                            </dt>
+                            <div style="overflow: hidden;">
+                                <dd>
+                                    <a href="Platform adaptation - Platforms - Material design guidelines.html">
+                                        平台适配
+                                    </a>
+                                    <a href="Android - Platforms - Material design guidelines.html">
+                                        安卓
+                                    </a>
+                                </dd>
+                            </div>
+                        </dl>
+                        <dl>
+                            <dt aria-expanded="false" class="qp-ui goog-zippy-header goog-zippy-collapsed" data-qp-ui="{ 'SideNavZippy': false }" data-qp-ui-data-id="qp:g" role="tab" tabindex="0">
+                                资源
+                            </dt>
+                            <div style="overflow: hidden;">
+                                <dd>
+                                    <a href="Color palettes - Resources - Material design guidelines.html">
+                                        调色板
+                                    </a>
+                                    <a href="Devices - Resources - Material design guidelines.html">
+                                        设备
+                                    </a>
+                                    <a href="Layout templates - Resources - Material design guidelines.html">
+                                        布局模板
+                                    </a>
+                                    <a href="Roboto & Noto fonts - Resources - Material design guidelines.html">
+                                        Roboto & Noto fonts
+                                    </a>
+                                    <a href="Sticker sheets & icons - Resources - Material design guidelines.html">
+                                        贴纸及图标
+                                    </a>
+                                    <a href="Shadows - Resources - Material design guidelines.html">
+                                        阴影
+                                    </a>
+                                </dd>
+                            </div>
+                        </dl>
+                    </nav>
+                    <div class="legal">
+                        <ul>
+                            <li>
+                                <a class="qp-ui-side-nav-dismiss" href="javascript:void(0);" onclick="try{userfeedback.api.startFeedback({'productId': '1027542', 'bucket': 'material_spec', 'locale': 'en', 'allowNonLoggedInFeedback': true});return false;}catch(e){}">
+                                    Site feedback
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.google.com/policies/privacy/">
+                                    Privacy
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.google.com/policies/terms/">
+                                    Terms
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="grid-cont">
+            <section class="grid_outer chapter">
+                <h1 class="chapter-title">
+                    列表
+                </h1>
+                <div class="chapter-content">
+                    <div class="article-content chapter-intro">
+                        <div>
+                            <p>
+                                列表作为单个连续元素垂直呈现多个行的项目。
+                            </p>
+                            <div class="col-list">
+                                <section class="module-module-figure col-3">
+                                    <div class="module">
+                                        <p>
+                                            列表由连续的行列组成。 每行包含一个瓷片。 主动作填充瓷片，补充动作由图标和文字表示。
+                                            <br>
+                                            </br>
+                                        </p>
+                                        <p>
+                                            列表最适合类似的数据类型。
+                                        </p>
+                                    </div>
+                                    <div class="module">
+                                        
+                                        
+                                        
+                                        
+                                    </div>
+                                    <div class="figure">
+                                        <figure class="s-tag-media">
+                                            <div class="media" style="max-width: 3000px">
+                                                <div class="frame " style="padding-top: 100.0%">
+                                                    <img alt="" src="./Lists - Components - Material design guidelines_files/components_lists.png"/>
+                                                </div>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="article-list">
+                        <div class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:1" id="lists-usage">
+                            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:1">
+                                用法
+                                <svg aria-labelledby="title desc" class="icon icon-expand-collapse" role="img" version="1.1" viewbox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+                                    <title>
+                                        Expand and collapse content
+                                    </title>
+                                    <desc>
+                                        An arrow that points down when collapsed and points up when expanded.
+                                    </desc>
+                                    <polygon points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583" role="presentation">
+                                    </polygon>
+                                </svg>
+                            </h2>
+                            <div class="article-content">
+                                <div>
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <p>
+                                                    一个列表由一个连续的、相等宽度的细分子分区组成，称为行。作为瓷片的容器。
+                                                </p>
+                                                <p>
+                                                    瓷砖保持内容，列表中的高度可能会有所不同。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 80.0%">
+                                                            <img alt="" aria-describedby="usage-figure-caption-1" src="./Lists - Components - Material design guidelines_files/components_lists_usage1.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="usage-figure-caption-1">
+                                                        <p>
+                                                            列表
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 80.0%">
+                                                            <img alt="" aria-describedby="usage-figure-caption-2" src="./Lists - Components - Material design guidelines_files/components_lists_usage2.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="usage-figure-caption-2">
+                                                        <p>
+                                                            行跟瓷片
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:2" id="lists-behavior">
+                            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:2">
+                                行为
+                                <svg aria-labelledby="title desc" class="icon icon-expand-collapse" role="img" version="1.1" viewbox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+                                    <title>
+                                        Expand and collapse content
+                                    </title>
+                                    <desc>
+                                        An arrow that points down when collapsed and points up when expanded.
+                                    </desc>
+                                    <polygon points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583" role="presentation">
+                                    </polygon>
+                                </svg>
+                            </h2>
+                            <div class="article-content">
+                                <div>
+                                    <h1>
+                                        滚动
+                                    </h1>
+                                    <p>
+                                        垂直滚动列表，横向编辑（非全部列表）。
+                                    </p>
+                                    <h1>
+                                        手势
+                                    </h1>
+                                    <p>
+                                        每个瓷片的滑动动作应在列表内保持一致。
+                                    </p>
+                                    
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <h1>
+                                                    过滤和排序
+                                                </h1>
+                                                <p>
+                                                    列表瓷片可以按日期，文件大小，字母顺序或其他参数进行排序或过滤。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 91.3888888889%">
+                                                            <img alt="" aria-describedby="behavior-figure-caption-1" src="./Lists - Components - Material design guidelines_files/components_lists_behavior1.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="behavior-figure-caption-1">
+                                                        <p class="s-tag-caption do">
+                                                            可行
+                                                        </p>
+                                                        <p>
+                                                            按字母排序使信息更容易找到。
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 91.3888888889%">
+                                                            <img alt="" aria-describedby="behavior-figure-caption-2" src="./Lists - Components - Material design guidelines_files/components_lists_behavior2.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="behavior-figure-caption-2">
+                                                        <p class="s-tag-caption dont">
+                                                            不可行
+                                                        </p>
+                                                        <p>
+                                                            不要随机显示信息; 如果UI不允许用户对列表进行排序，则应用程序应使用逻辑排序顺序。
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:3" id="lists-content">
+                            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:3">
+                                内容
+                                <svg aria-labelledby="title desc" class="icon icon-expand-collapse" role="img" version="1.1" viewbox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+                                    <title>
+                                        Expand and collapse content
+                                    </title>
+                                    <desc>
+                                        An arrow that points down when collapsed and points up when expanded.
+                                    </desc>
+                                    <polygon points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583" role="presentation">
+                                    </polygon>
+                                </svg>
+                            </h2>
+                            <div class="article-content">
+                                <div>
+                                    <div class="col-list">
+                                        <section class="module-figure-module col-3">
+                                            <div class="module">
+                                                <p>
+                                                    列表中的内容应该以相同的格式展示。 列表内容应该层级分明，以帮助用户区分信息的主次。 例如，在电子邮件收件箱应用程序中，戳强调头像和标题。
+                                                </p>
+                                                <p>
+                                                    列表最多可以包含三行文本，文本长度根据其内容的不同而变化。 如果要显示三行以上的文字，请使用卡片方式展示。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 53.3333333333%">
+                                                            <img alt="" aria-describedby="content-figure-caption-1" src="./Lists - Components - Material design guidelines_files/components_lists_content1.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="content-figure-caption-1">
+                                                        <p>
+                                                            将最显着的内容放在瓷片的左侧，右侧的最不重要的内容。
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="module">
+                                            </div>
+                                        </section>
+                                        <section class="module-figure-module col-3">
+                                            <div class="module">
+                                                <p>
+                                                    规格说明：
+                                                </p>
+                                                <ul class="lst-kix_8uufrxu5qfsh-0 start">
+                                                    
+                                                    <li>
+                                                        重要内容放置在列表左侧位置。
+                                                    </li>
+                                                    <li>
+                                                        多行文本列表中，将需要突出的部分放在第一行。
+                                                    </li>
+                                                    <li>
+                                                        右侧放置补充动作。
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 53.3333333333%">
+                                                            <img alt="" aria-describedby="content-figure-caption-2" src="./Lists - Components - Material design guidelines_files/components_lists_content2.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="content-figure-caption-2">
+                                                        <p>
+                                                            主要动作占据了平铺上的大部分空间。 补充动作在瓷片的右侧。
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="module">
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="article qp-ui" data-qp-ui="{ 'ScrollSpy': {} }" data-qp-ui-data-id="qp:5" id="lists-specs">
+                            <h2 class="article-title qp-ui" data-qp-ui="{ 'ResponsiveZippy': {} }" data-qp-ui-data-id="qp:5">
+                                规格
+                                <svg aria-labelledby="title desc" class="icon icon-expand-collapse" role="img" version="1.1" viewbox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+                                    <title>
+                                        Expand and collapse content
+                                    </title>
+                                    <desc>
+                                        An arrow that points down when collapsed and points up when expanded.
+                                    </desc>
+                                    <polygon points="2.5,4.167 5,6.667 7.5,4.167 6.917,3.583 5,5.5 3.083,3.583" role="presentation">
+                                    </polygon>
+                                </svg>
+                            </h2>
+                            <div class="article-content">
+                                <div>
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <p>
+                                                    在单行列表中，每个瓷片包含一行文本。 文本的数量可以在同一列表内的瓷片之间变化。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 73.3333333333%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-1" src="./Lists - Components - Material design guidelines_files/components_lists_keylines1.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-1">
+                                                        <p>
+                                                            <strong>
+                                                                单行列表规格
+                                                            </strong>
+                                                            <br>
+                                                                Icon left padding: 16dp
+                                                                <br>
+                                                                    List item left padding: 72dp
+                                                                    <br>
+                                                                        List item right padding: 16dp
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-52" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_single6.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-52">
+                                                        <p>
+                                                            单行列表示例
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <p>
+                                                    在
+                                                    <strong>
+                                                        两行列表中
+                                                    </strong>
+                                                    ，每个瓷片最多包含两行文本。 文本的数量可以在同一列表内的瓷片之间变化。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 65.5555555556%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-2" src="./Lists - Components - Material design guidelines_files/components_lists_keylines3.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-2">
+                                                        <p>
+                                                            <strong>
+                                                                两行列表规格
+                                                                <br>
+                                                                </br>
+                                                            </strong>
+                                                            Icon left padding: 16dp
+                                                            <br>
+                                                                List item left padding: 72dp
+                                                                <br>
+                                                                    List right padding: 16dp
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-3" src="./Lists - Components - Material design guidelines_files/components_lists_keylines4.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-3">
+                                                        <p>
+                                                            两行列表示例
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <p>
+                                                    在
+                                                    <strong>
+                                                        三行列表中
+                                                    </strong>
+                                                    , ，每个瓷片最多包含三行文本。
+                                                </p>
+                                                <p>
+                                                    文本的数量可以在同一列表内的瓷片之间变化。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 73.3333333333%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-4" src="./Lists - Components - Material design guidelines_files/components_lists_keylines5.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-4">
+                                                        <p>
+                                                            <strong>
+                                                                三行列表规格
+                                                                <br>
+                                                                </br>
+                                                            </strong>
+                                                            Icon left padding: 16dp
+                                                            <br>
+                                                                List item left padding: 72dp
+                                                                <br>
+                                                                    List right padding: 16dp
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-5" src="./Lists - Components - Material design guidelines_files/components_lists_keylines6.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-5">
+                                                        <p>
+                                                            三行列表示例
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <h1>
+                                                    单行列表
+                                                </h1>
+                                                <h2>
+                                                    <strong>
+                                                        只显示文字
+                                                    </strong>
+                                                </h2>
+                                                <p>
+                                                    在列表的顶部和底部添加8dp的填充，除了子标题列表，他们具有自己的填充。
+                                                </p>
+                                                <p>
+                                                    从底线测量底部填充。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 44.4444444444%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-6" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_single1.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-6">
+                                                        <p>
+                                                            单行列表
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-53" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_single3.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-53">
+                                                        <p>
+                                                            单行列表示例
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 44.4444444444%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-7" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_single2.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-7">
+                                                        <p>
+                                                            <strong>
+                                                                单行列表规格
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 16sp
+                                                            <br>
+                                                                Height: 48dp
+                                                                <br>
+                                                                    Left and right padding from screen edge: 16dp
+                                                                    <br>
+                                                                        Top padding: 8dp
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 44.4444444444%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-8" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_single2_dense.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-8">
+                                                        <p>
+                                                            <strong>
+                                                                密集单列表规格
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 13sp
+                                                            <br>
+                                                                Height: 40dp
+                                                                <br>
+                                                                    Left and right padding from screen edge: 16dp
+                                                                    <br>
+                                                                        Top padding: 4dp
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <h2>
+                                                    <strong>
+                                                        图和文本
+                                                    </strong>
+                                                </h2>
+                                                <p>
+                                                    在列表的顶部和底部添加8dp的填充，除了子标题列表，他们具有自己的填充。
+                                                </p>
+                                                <p>
+                                                    从底线测量底部填充。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 44.7222222222%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-9" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_single4.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-9">
+                                                        <p>
+                                                            带图标的单线列表
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame bordered" style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-54" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_single6.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-54">
+                                                        <p>
+                                                            带图标的单线列表示例
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 44.4444444444%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-10" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_single5.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-10">
+                                                        <p>
+                                                            <strong>
+                                                                单线列表图标规格
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 16sp
+                                                            <br>
+                                                                Height: 48dp
+                                                                <br>
+                                                                    Icon padding, left: 16dp
+                                                                    <br>
+                                                                        Text padding, left: 72dp
+                                                                        <br>
+                                                                            Top padding: 8dp
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 44.4444444444%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-11" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_single5_dense.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-11">
+                                                        <p>
+                                                            <strong>
+                                                                密集的带有图标单行列表规格
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 13sp
+                                                            <br>
+                                                                Height: 40dp
+                                                                <br>
+                                                                    Icon padding, left: 16dp
+                                                                    <br>
+                                                                        Text padding, left: 72dp
+                                                                        <br>
+                                                                            Top padding: 4dp
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <h2>
+                                                    <strong>
+                                                        带文本的头像
+                                                    </strong>
+                                                </h2>
+                                                <p>
+                                                    B从底线测量底部填充。
+                                                </p>
+                                                <p>
+                                                    在列表的顶部和底部添加8dp的填充，除了具有自己填充的子标题的列表。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 51.1111111111%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-12" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_single7.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-12">
+                                                        <p>
+                                                            带头像的单行项目
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-13" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_single9.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-13">
+                                                        <p>
+                                                            带头像的单行项目示例
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 51.1111111111%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-14" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_single8.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-14">
+                                                        <p>
+                                                            <strong>
+                                                                带头像的单行项目规格
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 16sp
+                                                            <br>
+                                                                Height: 56dp
+                                                                <br>
+                                                                    Left avatar padding: 16dp
+                                                                    <br>
+                                                                        Text padding, left: 72dp
+                                                                        <br>
+                                                                            Top padding: 8dp
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 51.1111111111%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-15" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_single8_dense.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-15">
+                                                        <p>
+                                                            <strong>
+                                                                密集的带头像单行文本的规格
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 13sp
+                                                            <br>
+                                                                Height: 48dp
+                                                                <br>
+                                                                    Left avatar padding: 16dp
+                                                                    <br>
+                                                                        Text padding, left: 72dp
+                                                                        <br>
+                                                                            Top padding: 4dp
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <h2>
+                                                    <strong>
+                                                        带文本和图标的头像
+                                                    </strong>
+                                                </h2>
+                                                <p>
+                                                    Right icon padding: 16dp
+                                                </p>
+                                                <p>
+                                                    A在列表的顶部和底部填充dd 8dp，除了具有子标题的列表，它们有自己的填充。
+                                                </p>
+                                                <p>
+                                                    从底线测量底部填充。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 51.1111111111%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-16" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_single10.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-16">
+                                                        <p>
+                                                            带头像和图标的单行列表项目
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-17" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_single9.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-17">
+                                                        <p>
+                                                            带头像和图标的单行列表项目示例
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 51.1111111111%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-18" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_single11.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-18">
+                                                        <p>
+                                                            <strong>
+                                                                带头像和图标的单行列表项目规格
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 16sp
+                                                            <br>
+                                                                Height: 56dp
+                                                                <br>
+                                                                    Left avatar padding: 16dp
+                                                                    <br>
+                                                                        Right icon padding: 16dp
+                                                                        <br>
+                                                                            Text padding, left: 72dp
+                                                                            <br>
+                                                                                Top padding: 8dp
+                                                                            </br>
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 51.1111111111%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-19" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_single11_dense.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-19">
+                                                        <p>
+                                                            <strong>
+                                                                使用头像和图标规格的密集单行项目
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 13sp
+                                                            <br>
+                                                                Height: 48dp
+                                                                <br>
+                                                                    Left avatar padding: 16dp
+                                                                    <br>
+                                                                        Right icon padding: 16dp
+                                                                        <br>
+                                                                            Text padding, left: 72dp
+                                                                            <br>
+                                                                                Top padding: 4dp
+                                                                            </br>
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <h1>
+                                                    两行列表
+                                                </h1>
+                                                <h2>
+                                                    <strong>
+                                                        只显示文本
+                                                    </strong>
+                                                </h2>
+                                                <p>
+                                                    Primary text font: Roboto Regular 16sp
+                                                    <br>
+                                                        Secondary text font: Roboto Regular 14sp
+                                                        <br>
+                                                            Tile height: 72dp
+                                                            <br>
+                                                                Text padding, left: 16dp
+                                                                <br>
+                                                                    Text padding, top and bottom: 20dp
+                                                                </br>
+                                                            </br>
+                                                        </br>
+                                                    </br>
+                                                </p>
+                                                <p>
+                                                    从底线测量底部填充。
+                                                </p>
+                                                <p>
+                                                    在列表的顶部和底部添加填充的8dp。 一个例外是带有子标题的列表的顶部，因为子标题包含自己的填充。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 64.4444444444%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-20" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_two1.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-20">
+                                                        <p>
+                                                            T两行列表
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-21" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_two3.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-21">
+                                                        <p>
+                                                            两行列表示例
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 65.0%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-22" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_two2.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-22">
+                                                        <p>
+                                                            <strong>
+                                                                两行列表规格：
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 16sp
+                                                            <br>
+                                                                Height: 72dp
+                                                                <br>
+                                                                    Left and right padding from screen edge: 16dp
+                                                                    <br>
+                                                                        Top padding: 8dp
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 65.0%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-23" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_two2_dense.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-23">
+                                                        <p>
+                                                            <strong>
+                                                                密集的两行列表规格
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 13sp
+                                                            <br>
+                                                                Height: 60dp
+                                                                <br>
+                                                                    Left and right padding from screen edge: 16dp
+                                                                    <br>
+                                                                        Top padding: 4dp
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <h2>
+                                                    <strong>
+                                                        带文本的图标
+                                                    </strong>
+                                                </h2>
+                                                <p>
+                                                    Primary text font: Roboto Regular 16sp
+                                                    <br>
+                                                        Secondary text font: Roboto Regular 14sp
+                                                        <br>
+                                                            Tile height: 72dp
+                                                            <br>
+                                                                Left icon padding: 16dp
+                                                                <br>
+                                                                    Text padding, left: 72dp
+                                                                    <br>
+                                                                        Text padding, top and bottom: 20dp
+                                                                        <br>
+                                                                            Bottom padding is measured from the baseline.
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </br>
+                                                    </br>
+                                                </p>
+                                                <p>
+                                                    在列表的顶部和底部添加8dp的填充，除了具有自己填充的子标题的列表。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 64.4444444444%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-24" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_two4.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-24">
+                                                        <p>
+                                                            带图标的两行列表
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-25" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_two12.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-25">
+                                                        <p>
+                                                            带图标的两行列表示例
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 64.4444444444%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-26" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_two5.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-26">
+                                                        <p>
+                                                            <strong>
+                                                                带图标的两行列表规格
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 16sp
+                                                            <br>
+                                                                Height: 72dp
+                                                                <br>
+                                                                    Icon left padding: 16dp
+                                                                    <br>
+                                                                        Text left padding: 72dp
+                                                                        <br>
+                                                                            Padding above list: 8dp
+                                                                            <br>
+                                                                                Text right padding: 16dp
+                                                                            </br>
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 65.0%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-27" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_two5_dense.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-27">
+                                                        <p>
+                                                            <strong>
+                                                                密集的带图标两行列表规格：
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 13sp
+                                                            <br>
+                                                                Tile height: 60dp
+                                                                <br>
+                                                                    Icon left padding: 16dp
+                                                                    <br>
+                                                                        Text left padding: 72dp
+                                                                        <br>
+                                                                            Padding above list: 4dp
+                                                                            <br>
+                                                                                Text right padding: 16dp
+                                                                            </br>
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <h2>
+                                                    <strong>
+                                                        带文本的头像
+                                                    </strong>
+                                                </h2>
+                                                <p>
+                                                    Primary text font: Roboto Regular 16sp
+                                                    <br>
+                                                        Secondary text font: Roboto Regular 14sp
+                                                        <br>
+                                                            Tile height: 72dp
+                                                            <br>
+                                                                Left avatar padding: 16dp
+                                                                <br>
+                                                                    Text padding, left: 72dp
+                                                                    <br>
+                                                                        Text padding, top and bottom: 20dp
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </br>
+                                                    </br>
+                                                </p>
+                                                <p>
+                                                    从底线测量底部填充。
+                                                </p>
+                                                <p>
+                                                    中心对齐图标与文本区域。
+                                                </p>
+                                                <p>
+                                                    在列表的顶部和底部添加8dp的填充，除了具有自己填充的子标题的列表。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 64.4444444444%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-28" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_two6.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-28">
+                                                        <p>
+                                                            带头像的两行列表
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-29" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_two8.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-29">
+                                                        <p>
+                                                            两行带头像的列表示例
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 64.4444444444%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-30" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_two7.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-30">
+                                                        <p>
+                                                            <strong>
+                                                                两行带头像列表规格：
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 16sp
+                                                            <br>
+                                                                Tile height: 72dp
+                                                                <br>
+                                                                    Icon left padding: 16dp
+                                                                    <br>
+                                                                        Text left padding: 72dp
+                                                                        <br>
+                                                                            Padding above list: 8dp
+                                                                            <br>
+                                                                                Text right padding: 16dp
+                                                                            </br>
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 65.0%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-31" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_two7_dense.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-31">
+                                                        <p>
+                                                            <strong>
+                                                                密集的带头像两行列表规格：
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 13sp
+                                                            <br>
+                                                                Tile height: 60dp
+                                                                <br>
+                                                                    Icon left padding: 16dp
+                                                                    <br>
+                                                                        Text left padding: 72dp
+                                                                        <br>
+                                                                            Padding above list: 4dp
+                                                                            <br>
+                                                                                Text right padding: 16dp
+                                                                            </br>
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <h2>
+                                                    <strong>
+                                                        带文本和图标的头像
+                                                    </strong>
+                                                </h2>
+                                                <p>
+                                                    Primary text font: Roboto Regular 16sp
+                                                    <br>
+                                                        Secondary text font: Roboto Regular 14sp
+                                                        <br>
+                                                            Tile height: 72dp
+                                                            <br>
+                                                                Left avatar padding: 16dp
+                                                                <br>
+                                                                    Text padding, left: 72dp
+                                                                </br>
+                                                            </br>
+                                                        </br>
+                                                    </br>
+                                                </p>
+                                                <p>
+                                                    Right icon padding: 16dp
+                                                </p>
+                                                <p>
+                                                    从底线测量底部填充。
+                                                </p>
+                                                <p>
+                                                    在列表的顶部和底部添加8dp的填充，除了具有自己填充的子标题的列表。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 64.4444444444%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-32" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_two9.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-32">
+                                                        <p>
+                                                            带图标的和文字的头像
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-33" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_two11.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-33">
+                                                        <p>
+                                                            带图标的和文字的头像示例
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 64.4444444444%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-34" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_two10.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-34">
+                                                        <p>
+                                                            <strong>
+                                                                带文本和图标的头像规格
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 16sp
+                                                            <br>
+                                                                Tile height: 72dp
+                                                                <br>
+                                                                    Icon left padding: 16dp
+                                                                    <br>
+                                                                        Text left padding: 72dp
+                                                                        <br>
+                                                                            Padding above list: 8dp
+                                                                            <br>
+                                                                                Text right padding: 16dp
+                                                                            </br>
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 65.0%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-35" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_two10_dense.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-35">
+                                                        <p>
+                                                            <strong>
+                                                                密集的带文本和图标的头像规格
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 13sp
+                                                            <br>
+                                                                Tile height: 60dp
+                                                                <br>
+                                                                    Icon left padding: 16dp
+                                                                    <br>
+                                                                        Text left padding: 72dp
+                                                                        <br>
+                                                                            Padding above list: 4dp
+                                                                            <br>
+                                                                                Text right padding: 16dp
+                                                                            </br>
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <h1>
+                                                    三行列表
+                                                </h1>
+                                                <h2>
+                                                    <strong>
+                                                        纯文本
+                                                    </strong>
+                                                </h2>
+                                                <p>
+                                                    Primary text font: Roboto Regular 16sp
+                                                </p>
+                                                <p>
+                                                    Secondary text font: Roboto Regular 14sp
+                                                    <br>
+                                                        Tile height: 88dp
+                                                        <br>
+                                                            Text padding, left: 16dp
+                                                            <br>
+                                                                Text padding, top: 16dp
+                                                                <br>
+                                                                    Text padding, bottom: 20dp
+                                                                </br>
+                                                            </br>
+                                                        </br>
+                                                    </br>
+                                                </p>
+                                                <p>
+                                                    从底线测量底部填充。
+                                                </p>
+                                                <p>
+                                                    在列表的顶部和底部添加8dp的填充，除了具有自己填充的子标题的列表。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 77.7777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-36" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_three1.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-36">
+                                                        <p>
+                                                            三行文本列表
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-37" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_three12.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-37">
+                                                        <p>
+                                                            三行列表示例
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 77.7777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-38" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_three2.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-38">
+                                                        <p>
+                                                            <strong>
+                                                                三行列表规格：
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 16sp
+                                                            <br>
+                                                                Tile height: 88dp
+                                                                <br>
+                                                                    Text left padding: 16dp
+                                                                    <br>
+                                                                        Text right padding: 16dp
+                                                                        <br>
+                                                                            Padding above list: 8dp
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 77.7777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-39" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_three2_dense.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-39">
+                                                        <p>
+                                                            <strong>
+                                                                密集的三行列表规格
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 13sp
+                                                            <br>
+                                                                Tile height: 76dp
+                                                                <br>
+                                                                    Text left padding: 16dp
+                                                                    <br>
+                                                                        Text right padding: 16dp
+                                                                        <br>
+                                                                            Padding above list: 4dp
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <h2>
+                                                    <strong>
+                                                        图标和文本
+                                                    </strong>
+                                                </h2>
+                                                <p>
+                                                    Primary text font: Roboto Regular 16sp
+                                                    <br>
+                                                        Secondary text font: Roboto Regular 14sp
+                                                        <br>
+                                                            Tile height: 88dp
+                                                            <br>
+                                                                Left icon padding: 16dp
+                                                                <br>
+                                                                    Text left padding: 72dp
+                                                                    <br>
+                                                                        Text padding, top: 16dp
+                                                                        <br>
+                                                                            Text padding, bottom: 20dp
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </br>
+                                                    </br>
+                                                </p>
+                                                <p>
+                                                    从底线测量底部填充。
+                                                </p>
+                                                <p>
+                                                    顶部对齐图标与主要文本。
+                                                </p>
+                                                <p>
+                                                    在列表的顶部和底部添加8dp的填充，除了具有自己填充的子标题的列表。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 77.7777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-40" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_three4.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-40">
+                                                        <p>
+                                                            带图标的三行列表
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-41" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_three3.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-41">
+                                                        <p>
+                                                            带图标的三行列表示例
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 77.7777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-42" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_three5.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-42">
+                                                        <p>
+                                                            <strong>
+                                                                带图标的三行列表规格
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 16sp
+                                                            <br>
+                                                                Tile height: 88dp
+                                                                <br>
+                                                                    Icon left padding: 16dp
+                                                                    <br>
+                                                                        Text left padding: 72dp
+                                                                        <br>
+                                                                            Text padding right: 16dp
+                                                                            <br>
+                                                                                Padding above list: 8dp
+                                                                            </br>
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 77.7777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-43" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_three5_dense.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-43">
+                                                        <p>
+                                                            <strong>
+                                                                密集的带图标的三行列表规格
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 13sp
+                                                            <br>
+                                                                Tile height: 76dp
+                                                                <br>
+                                                                    Icon left padding: 16dp
+                                                                    <br>
+                                                                        Text left padding: 72dp
+                                                                        <br>
+                                                                            Text padding right: 16dp
+                                                                            <br>
+                                                                                Padding above list: 4dp
+                                                                            </br>
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <h2>
+                                                    <strong>
+                                                        带文本的头像
+                                                    </strong>
+                                                </h2>
+                                                <p>
+                                                    Primary text font: Roboto Regular 16sp
+                                                    <br>
+                                                        Secondary text font: Roboto Regular 14sp
+                                                        <br>
+                                                            Tile height: 88dp
+                                                            <br>
+                                                                Left avatar padding: 16dp
+                                                                <br>
+                                                                    Left text padding: 72dp
+                                                                    <br>
+                                                                        Text padding, top: 16dp
+                                                                        <br>
+                                                                            Text padding, bottom: 20dp
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </br>
+                                                    </br>
+                                                </p>
+                                                <p>
+                                                    从底线测量底部填充。
+                                                </p>
+                                                <p>
+                                                    使用主文本顶部对齐头像。
+                                                </p>
+                                                <p>
+                                                    在列表的顶部和底部添加8dp的填充，除了具有自己填充的子标题的列表。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 77.7777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-44" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_three6.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-44">
+                                                        <p>
+                                                            带头像的三行列表
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-45" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_three8.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-45">
+                                                        <p>
+                                                            带头像的三行列表示例
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 77.7777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-46" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_three7.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-46">
+                                                        <p>
+                                                            <strong>
+                                                                带头像的三行列表规格
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 16sp
+                                                            <br>
+                                                                Tile height: 88dp
+                                                                <br>
+                                                                    Padding above list: 8dp
+                                                                    <br>
+                                                                        Padding left of avatar: 16dp
+                                                                        <br>
+                                                                            Text left padding: 72dp
+                                                                            <br>
+                                                                                Text right padding: 16dp
+                                                                            </br>
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 77.7777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-47" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_three7_dense.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-47">
+                                                        <p>
+                                                            <strong>
+                                                                密集的带头像的三行列表规格：
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 13sp
+                                                            <strong>
+                                                                <br>
+                                                                </br>
+                                                            </strong>
+                                                            Tile height: 76dp
+                                                            <br>
+                                                                Padding above list: 4dp
+                                                                <br>
+                                                                    Padding left of avatar: 16dp
+                                                                    <br>
+                                                                        Text left padding: 72dp
+                                                                        <br>
+                                                                            Text right padding: 16dp
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="col-list">
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                                <h2>
+                                                    <strong>
+                                                        带文本及图标的头像
+                                                    </strong>
+                                                </h2>
+                                                <p>
+                                                    Primary text font: Roboto Regular 16sp
+                                                    <br>
+                                                        Secondary text font: Roboto Regular 14sp
+                                                        <br>
+                                                            Tile height: 88dp
+                                                            <br>
+                                                                Left avatar padding: 16dp
+                                                                <br>
+                                                                    Text left padding: 72dp
+                                                                    <br>
+                                                                        Text padding, top: 16dp
+                                                                        <br>
+                                                                            Text padding, bottom: 20dp
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </br>
+                                                    </br>
+                                                </p>
+                                                <p>
+                                                    Right icon padding: 16dp
+                                                </p>
+                                                <p>
+                                                    从底线测量底部填充。
+                                                </p>
+                                                <p>
+                                                    使用主文本顶部对齐头像和图标。
+                                                </p>
+                                                <p>
+                                                    在列表的顶部和底部添加8dp的填充，除了具有自己填充的子标题的列表。
+                                                </p>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 77.7777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-48" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_three9.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-48">
+                                                        <p>
+                                                            带头像和图标的三行列表
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 177.777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-49" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_three11.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-49">
+                                                        <p>
+                                                            带头像和图标的三行列表示例
+                                                        </p>
+                                                        <p>
+                                                            <br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                        <section class="module-figure-figure col-3">
+                                            <div class="module">
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 77.7777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-50" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_three10.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-50">
+                                                        <p>
+                                                            <strong>
+                                                                带头像和图标的三行列表规格：
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 16sp
+                                                            <br>
+                                                                Tile height: 88dp
+                                                                <br>
+                                                                    Left avatar padding: 16dp
+                                                                    <br>
+                                                                        Text left padding: 72dp
+                                                                        <br>
+                                                                            Padding above list: 8dp
+                                                                            <br>
+                                                                                Right and left padding by the icon: 16dp
+                                                                            </br>
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                            <div class="figure">
+                                                <figure class="s-tag-media">
+                                                    <div class="media" style="max-width: 720px">
+                                                        <div class="frame " style="padding-top: 77.7777777778%">
+                                                            <img alt="" aria-describedby="specs-figure-caption-51" src="./Lists - Components - Material design guidelines_files/components_lists_keylines_three10_dense.png"/>
+                                                        </div>
+                                                    </div>
+                                                    <figcaption id="specs-figure-caption-51">
+                                                        <p>
+                                                            <strong>
+                                                                密集的带头像和图标的三行列表规格：
+                                                            </strong>
+                                                        </p>
+                                                        <p>
+                                                            Font: Roboto Regular 13sp
+                                                            <br>
+                                                                Tile height: 76dp
+                                                                <br>
+                                                                    Left avatar padding: 16dp
+                                                                    <br>
+                                                                        Text left padding: 72dp
+                                                                        <br>
+                                                                            Padding above list: 4dp
+                                                                            <br>
+                                                                                Right and left padding by the  icon: 16dp
+                                                                            </br>
+                                                                        </br>
+                                                                    </br>
+                                                                </br>
+                                                            </br>
+                                                        </p>
+                                                    </figcaption>
+                                                </figure>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="footer-grid">
+                <div class="footer-L section-material-design color-indigo">
+                </div>
+                <div class="footer-grid-L section-material-design color-indigo">
+                    <a class="footer-text" href="Grid lists - Components - Material design guidelines.html">
+                        
+                        <span class="direction">
+                            上一篇
+                        </span>
+                        <span class="screen-reader">
+                            :
+                        </span>
+                        <div>
+                            网格列表
+                        </div>
+                    </a>
+                </div>
+                <div class="footer-R section-what-is-material color-indigo">
+                </div>
+                <div class="footer-grid-R section-what-is-material color-indigo">
+                    <a class="footer-text" href="Lists_ Controls - Components - Material design guidelines.html">
+                        
+                        <span class="direction">
+                            下一篇
+                        </span>
+                        <span class="screen-reader">
+                            :
+                        </span>
+                        <div>
+                            列表：控件
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <script src="./Lists - Components - Material design guidelines_files/main.min.js.下载">
+        </script>
+        <script src="./Lists - Components - Material design guidelines_files/api.js.下载">
+        </script>
+        <div class="qp-ui-mask-modal">
+        </div>
+    </body>
+</html>
